@@ -1,4 +1,11 @@
-header {
-    background-color: gray;
-    margin: 300px;
+@font-face {
+    font-family: PP Radio Grotesk;
+    src: url(fonts/PPRadioGrotesk-Ultralight.otf);
+    font-weight:200;
+}
+
+p {
+    font-family: PP Radio Grotesk;
+    font-size: 25px;
+    line-height: 140%;
 }
