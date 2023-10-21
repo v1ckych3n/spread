@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
 @font-face {
-    font-family: PP Radio Grotesk;
+    font-family: PP Radio Grotesk-Ultralight;
     src: url(fonts/PPRadioGrotesk-Ultralight.otf);
     font-weight:200;
 }
 
+@font-face {
+    font-family: PP Radio Grotesk-UltralightItalic;
+    src: url(fonts/PPRadioGrotesk-UltralightItalic.otf);
+    font-weight: 200;
+}
+
 p {
-    font-family: PP Radio Grotesk;
+    font-family: PP Radio Grotesk-Ultralight;
     font-size: 25px;
     line-height: 140%;
+}
+
+blockquote {
+    font-family: Bitter;
+    font-size: 35px;
+    line-height: 130%;
+}
+
+em {
+    font-family: PP Radio Grotesk-UltralightItalic;
 }
