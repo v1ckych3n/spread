@@ -12,18 +12,32 @@
     font-weight: 200;
 }
 
+@font-face {
+    font-family: PP Radio Grotesk-Regular;
+    src: url(fonts/PPRadioGrotesk-Regular.otf);
+    font-weight: 300;
+}
+
 p {
     font-family: PP Radio Grotesk-Ultralight;
     font-size: 25px;
     line-height: 140%;
+    max-width: 50rem;
+}
+
+h3 {
+    font-family: PP Radio Grotesk-Regular;
+    font-size: 25px;
 }
 
 blockquote {
     font-family: Bitter;
     font-size: 35px;
     line-height: 130%;
+    max-width: 50rem;
 }
 
 em {
     font-family: PP Radio Grotesk-UltralightItalic;
 }
+
