@@ -37,6 +37,11 @@ h2 {
 h3 {
     font-family: PP Radio Grotesk-Regular;
     font-size: 25px;
+
+    width: 30rem;
+    background-color: teal;
+    outline-width: 1px;
+    outline-color: black;
 }
 
 p {
@@ -46,6 +51,7 @@ p {
     
     width: 550px;
     margin: auto;
+    margin-bottom: 2rem;
     /* max-width: 50rem; */
 }
 
@@ -54,6 +60,10 @@ blockquote {
     font-size: 35px;
     line-height: 130%;
     max-width: 50rem;
+
+    width: 550px;
+    margin: auto;
+    padding-left: 6rem;
 }
 
 em {
@@ -61,6 +71,10 @@ em {
 }
 
 /* semantic DOM styling */
+body {
+    margin-left: 5%;
+}
+
 header {
     background-color: #1B1C1E;
     color: white;
@@ -68,6 +82,8 @@ header {
     margin-left: -5%;
     padding-left: 5%;
 }
+
+
 
 /* class styles */
 .outline-text {
@@ -91,6 +107,17 @@ header {
         line-height: 140%;
     }
 
+
+    /* semantic DOM */
+    body {
+        margin-left: 5%;
+    }
+    
+    /* class styles */
+    .disclaimer-paragraph {
+        font-size: 16px;
+        margin-left: 0%;
+    }
 }
 
 /* tablet media query */
