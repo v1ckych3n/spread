@@ -1,3 +1,4 @@
+/* font files */
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
 @font-face {
@@ -18,16 +19,34 @@
     font-weight: 300;
 }
 
-p {
-    font-family: PP Radio Grotesk-Ultralight;
-    font-size: 25px;
-    line-height: 140%;
-    max-width: 50rem;
+/* heading type styles */
+h1 {
+    font-family: SF Pro;
+    font-size: 150px;
+    font-weight: 600;
+    line-height: 100%;
+    
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: PP Radio Grotesk-Regular;
+    font-size: 36px;
 }
 
 h3 {
     font-family: PP Radio Grotesk-Regular;
     font-size: 25px;
+}
+
+p {
+    font-family: PP Radio Grotesk-Ultralight;
+    font-size: 16px;
+    line-height: 135%;
+    
+    width: 550px;
+    margin: auto;
+    /* max-width: 50rem; */
 }
 
 blockquote {
@@ -41,3 +60,40 @@ em {
     font-family: PP Radio Grotesk-UltralightItalic;
 }
 
+/* semantic DOM styling */
+header {
+    background-color: #1B1C1E;
+    color: white;
+
+    margin-left: -5%;
+    padding-left: 5%;
+}
+
+/* class styles */
+.outline-text {
+    color: transparent;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+/* laptop media query */
+@media (min-width: 1280px) {
+
+    /* type styles */
+    h1 {
+        font-size: 150px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 25px;
+        line-height: 140%;
+    }
+
+}
+
+/* tablet media query */
+@media (min-width: 425px) {
+
+}
