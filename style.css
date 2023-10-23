@@ -41,24 +41,33 @@ h2 {
 }
 
 h3 {
+    margin-top: 100px; /**/
     font-family: PP Radio Grotesk-Regular;
     font-size: 25px;
-
-    /* width: 30rem;
-    background-color: teal;
+    /* background-color: tomato; */
+    /* display: inline-block; */
+    width: 30rem;
+    /*background-color: teal;
     outline-width: 1px;
     outline-color: black; */
+    border: 2px solid black;
+    padding: 1px 7px 1px;
+    margin-bottom: 30px;
+}
+
+.subheading-1 {
+    background-color: aqua;
+    width: 30rem;
 }
 
 p {
     font-family: PP Radio Grotesk-Ultralight;
     font-size: 16px;
     line-height: 135%;
-    
     width: 35vw;
     margin: auto;
     margin-bottom: 2rem;
-    /* max-width: 50rem; */
+    max-width: 50rem;
 }
 
 blockquote {
@@ -69,6 +78,8 @@ blockquote {
 
     width: 700px;
     margin: auto;
+    margin-bottom: 20px; /**/
+    /* margin-top: 40px;  */
     padding-left: 10rem;
 }
 
@@ -84,7 +95,7 @@ body {
 header {
     background-color: #1B1C1E;
     color: white;
-
+    margin-bottom: 100px;
     min-height: 90vh;
     margin-left: -5%;
     padding-top: 5%;
@@ -121,6 +132,41 @@ header {
     border-radius: 100rem;
 } */
 
+
+
+/* the ladder thing */
+.main-text {
+    border-left: 2px solid #000;
+    padding: 0 20px 0 30px;
+}
+
+div {
+    position: relative;
+}
+
+div:before {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-color: aqua;
+    border: 2px solid #000;
+    position: absolute;
+    /* top: 0px; */
+    left: -50px;
+}
+
+/* div:after {
+    background-color: tomato;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px;
+    position: absolute;
+    left: 17px;
+    top: 10px;
+} */
 
 /* laptop media query */
 @media (min-width: 1280px) {
@@ -171,3 +217,20 @@ header {
 @media (min-width: 425px) {
 
 }
+
+/* mobile media query */
+/* @media (min-width: 375px) {
+
+    .main-text p {
+        min-width: 360px;
+        font-size: 18px;
+    }
+} */
+
+
+
+
+/* Things to discuss with Vicky:
+    - The divider looks a bit too big especially with the border+bg color
+    - text width could be longer in web view?
+    - to change each color of h3, we need to put them in separate divs
