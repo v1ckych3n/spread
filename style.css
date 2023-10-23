@@ -182,7 +182,11 @@ header {
 .imagery_ryg-content p:first-child {
     font-family: Pixelify;
     font-size: 150px;
+    font-weight: 600;
     margin-bottom: -2rem;
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .imagery_ryg-content-red {
@@ -200,6 +204,30 @@ header {
 .imagery_ryg-content p:nth-child(2){
     font-family: SF Mono;
     color: gray;
+}
+
+.imagery_laurel {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagery_laurel-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagery_laurel-content p {
+    font-family: Pixelify;
+    font-size: 150px;
+    font-weight: 600;
+    color: #F6FA70;
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 /* the ladder thing */
