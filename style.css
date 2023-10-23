@@ -200,14 +200,9 @@ container:nth-child(10):before {
 }
 
 /* The H3 color change */
-h3:first-child {
-    background-color: #ff00ff;
-}
-
-h3:nth-child(2) {
+h3:nth-of-type(2) {
     background-color: #f6fa70;
 }
-
 
 /* laptop media query */
 @media (min-width: 1280px) {
