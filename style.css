@@ -43,22 +43,14 @@ h2 {
 h3 {
     font-family: PP Radio Grotesk-Regular;
     font-size: 22px;
-    /* background-color: tomato; */
-    /* display: inline-block; */
+
     width: 30rem;
-    /*background-color: teal;
-    outline-width: 1px;
-    outline-color: black; */
     border: 2px solid black;
-    padding: 1px 7px 1px;
+
+    padding: 2px 7px 1px;
     margin-bottom: 30px;
     margin-left: 15px;
     margin-top: 30px;
-}
-
-.subheading-1 {
-    background-color: aqua;
-    width: 30rem;
 }
 
 p {
@@ -95,44 +87,67 @@ body {
 header {
     background-color: #1B1C1E;
     color: white;
-    margin-bottom: 100px;
+
     min-height: 90vh;
+
+    margin-bottom: 100px;
     margin-left: -5%;
     padding-top: 5%;
     padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 
 /* class styles */
-.outline-text {
+.header_outline-text {
     color: transparent;
 
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: white;
 }
 
-.header-disclaimer-paragraph {
+.header_disclaimer-paragraph {
     margin-top: 50px;
     margin-left: 0%;
 }
 
-.header-subheading {
+.header_subheading {
     font-size: 32px;
     line-height: 100%;
 
     margin-left: 0%;
 }
 
-/* trying to do the circle div container for the everyday imagery
+.header_smaller-subheading {
+    font-size: 24px;
 
-.circle-background {
+    margin-left: 0%;
+}
+
+/* trying to do the circle div container for the everyday imagery */
+.header_imagery {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    align-content: center;
+
+    margin-bottom: 2rem;
+}
+
+.header_imagery div {
     background-color: transparent;
 
-    outline: solid;
-    border-radius: 100rem;
-} */
+    border: white solid 1.5px;
+    border-radius: 100%;
 
+    width: 45px;
+    height: 45px;
 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
 
 /* the ladder thing */
 .section_main-body {
@@ -147,8 +162,8 @@ header {
 }
 
 .square {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     border: 2px solid #000;
     position: absolute;
     left: -16px;
@@ -163,72 +178,6 @@ header {
     background-color: #f6fa70;
 }
 
-
-
-
-container {
-    position: relative;
-}
-
-container:before {
-    content: '';
-    display: block;
-    width: 36px;
-    height: 36px;
-    /* background-color: aqua; */
-    border: 2px solid #000;
-    position: absolute;
-    top: 68px;
-    left: -50px;
-}
-
-container:first-child:before {
-    background-color: #ff00ff;
-    top: 0px;
-}
-
-container:nth-child(2):before {
-    background-color: #f6fa70;
-}
-
-container:nth-child(3):before {
-    background-color: #000000;
-}
-
-container:nth-child(4):before {
-    background-color: #ff0000;
-}
-
-container:nth-child(5):before {
-    background-color: #00ffff;
-}
-
-container:nth-child(6):before {
-    background-color: #43B3ae;
-}
-
-/* This is where the Java interaction will go (maybe) */
-container:nth-child(7):before {
-    display: none;
-    /* background-color: ; */
-}
-
-container:nth-child(8):before {
-    background-color: #00a560;
-}
-
-container:nth-child(9):before {
-    background-color: #0437f2;
-}
-
-container:nth-child(10):before {
-    background-color: #808080;
-}
-
-/* The H3 color change */
-h3:nth-of-type(2) {
-    background-color: #f6fa70;
-}
 
 /* laptop media query */
 @media (min-width: 1280px) {
@@ -251,7 +200,6 @@ h3:nth-of-type(2) {
         max-width: 50rem;
         margin-bottom: 100px;
     }
-
 
     /* semantic DOM */
     body {
@@ -288,14 +236,4 @@ h3:nth-of-type(2) {
     - The divider looks a bit too big especially with the border+bg color
     - text width could be longer in web view?
     - to change each color of h3, we need to put them in separate divs
-
-
-
-    /* test */
-     /* test */
-      /* test */
-       /* test */
-        /* test */
-
-    
 
