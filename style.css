@@ -38,10 +38,10 @@ h3 {
     font-family: PP Radio Grotesk-Regular;
     font-size: 25px;
 
-    width: 30rem;
+    /* width: 30rem;
     background-color: teal;
     outline-width: 1px;
-    outline-color: black;
+    outline-color: black; */
 }
 
 p {
