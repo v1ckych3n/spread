@@ -62,9 +62,9 @@ h3 {
 
 p {
     font-family: PP Radio Grotesk-Ultralight;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 135%;
-    width: 35vw;
+    width: 90%;
     margin: auto;
     margin-bottom: 2rem;
     max-width: 50rem;
@@ -180,6 +180,7 @@ div:before {
     p {
         font-size: 25px;
         line-height: 140%;
+        width: 50%;
     }
 
     blockquote {
