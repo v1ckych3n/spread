@@ -223,7 +223,6 @@ h3:nth-of-type(2) {
         font-size: 35px;
         line-height: 130%;
         max-width: 50rem;
-
         margin-bottom: 100px;
     }
 
@@ -263,3 +262,46 @@ h3:nth-of-type(2) {
     - The divider looks a bit too big especially with the border+bg color
     - text width could be longer in web view?
     - to change each color of h3, we need to put them in separate divs
+
+
+
+    /* test */
+     /* test */
+      /* test */
+       /* test */
+        /* test */
+    .test-section {
+        border-left: 2px solid #000;
+        padding: 0 20px 0 30px;
+        position: absolute;
+    }
+
+    .title-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .square {
+        width: 32px;
+        height: 32px;
+        border: 2px solid #000;
+        background-color: tomato;
+        position: absolute;
+        left: -16px;
+    }
+
+    h4 {
+        font-family: PP Radio Grotesk-Regular;
+        font-size: 22px;
+        /* background-color: tomato; */
+        /* display: inline-block; */
+        width: 30rem;
+        /*background-color: teal;
+        outline-width: 1px;
+        outline-color: black; */
+        border: 2px solid black;
+        padding: 1px 7px 1px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
