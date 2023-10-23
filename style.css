@@ -41,9 +41,8 @@ h2 {
 }
 
 h3 {
-    margin-top: 100px; /**/
     font-family: PP Radio Grotesk-Regular;
-    font-size: 25px;
+    font-size: 22px;
     /* background-color: tomato; */
     /* display: inline-block; */
     width: 30rem;
@@ -53,6 +52,8 @@ h3 {
     border: 2px solid black;
     padding: 1px 7px 1px;
     margin-bottom: 30px;
+    margin-left: 15px;
+    margin-top: 30px;
 }
 
 .subheading-1 {
@@ -134,12 +135,37 @@ header {
 
 
 /* the ladder thing */
-.main-text {
+.section_main-body {
     border-left: 2px solid #000;
-    padding: 0 20px 0 30px;
+    padding: 0 0 0 30px;
+    position: relative;
 }
 
-    /* this is the square part */
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.square {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #000;
+    position: absolute;
+    left: -16px;
+}
+
+/* this is the square part */
+.square:first-child {
+    background-color: #ff00ff;
+}
+
+.square:nth-child(2) {
+    background-color: #f6fa70;
+}
+
+
+
+
 container {
     position: relative;
 }
@@ -270,38 +296,6 @@ h3:nth-of-type(2) {
       /* test */
        /* test */
         /* test */
-    .test-section {
-        border-left: 2px solid #000;
-        padding: 0 20px 0 30px;
-        position: absolute;
-    }
 
-    .title-container {
-        display: flex;
-        align-items: center;
-    }
+    
 
-    .square {
-        width: 32px;
-        height: 32px;
-        border: 2px solid #000;
-        background-color: tomato;
-        position: absolute;
-        left: -16px;
-    }
-
-    h4 {
-        font-family: PP Radio Grotesk-Regular;
-        font-size: 22px;
-        /* background-color: tomato; */
-        /* display: inline-block; */
-        width: 30rem;
-        /*background-color: teal;
-        outline-width: 1px;
-        outline-color: black; */
-        border: 2px solid black;
-        padding: 1px 7px 1px;
-        margin-bottom: 30px;
-        margin-left: 15px;
-        margin-top: 30px;
-    }
