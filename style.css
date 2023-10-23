@@ -149,6 +149,23 @@ header {
     text-align: center;
 } 
 
+.imagery_ryg {
+    display: flex;
+    flex-direction: row;
+    
+
+    align-content: center;
+    justify-content: center;
+}
+
+.imagery_ryg-content {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 200px;
+}
+
 /* the ladder thing */
 .section_main-body {
     border-left: 2px solid #000;
