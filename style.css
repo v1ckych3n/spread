@@ -164,7 +164,6 @@ header {
     display: flex;
     flex-direction: row;
     
-
     align-content: center;
     justify-content: center;
 }
@@ -204,6 +203,7 @@ header {
 
 .imagery_ryg-content p:nth-child(2){
     font-family: SF Mono;
+    font-size: 16px;
     color: gray;
 }
 
@@ -226,6 +226,8 @@ header {
 .imagery_laurel-content {
     display: flex;
     flex-direction: row;
+
+    margin-bottom: -2rem;
 }
 
 .imagery_laurel-content p {
@@ -265,13 +267,95 @@ header {
     flex-direction: column;
 }
 
+.imagery_color-blindness-content p{
+    font-family: SF Mono;
+    font-size: 16px;
+    color: gray;
+}
 
 .imagery_color-blindness-content-roygbiv {
     display: flex;
     flex-direction: row;
-
-    align-content: 
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -2rem;
 }
+
+.imagery_color-blindness-content-roygbiv p {
+    font-family: Pixelify;
+    font-weight: 600;
+    font-size: 150px;
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.imagery_color-blindness-content-roygbiv p:first-child {
+    color: #F5544C;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(2) {
+    color: #FD8013;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(3) {
+    color: #F8EC61;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(4) {
+    color: #8DD177;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(5) {
+    color: #4EB87B;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(6) {
+    color: #1A92C3;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(7) {
+    color: #057EF4;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(8) {
+    color: #0135FF;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(9) {
+    color: #1508DA;
+}
+
+.imagery_color-blindness-content-roygbiv p:nth-child(10) {
+    color: #49027C;
+}
+
+.imagery_color-blindness-content-color-blind {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+
+    margin-bottom: -2rem;
+}
+
+.imagery_color-blindness-content-color-blind p {
+    font-family: Pixelify;
+    font-weight: 600;
+    font-size: 150px;
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
 
 /* the ladder thing */
 .section_main-body {
@@ -348,7 +432,7 @@ header {
 }
 
 /* tablet media query */
-@media (min-width: 425px max-width: 1280px) {
+@media (min-width: 425px) {
 
 }
 
