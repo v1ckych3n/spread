@@ -420,7 +420,7 @@ header {
 /* this is the square part */
 .square:first-child {
     background-color: #ff00ff;
-}
+} 
 
 .square:nth-child(2) {
     background-color: #f6fa70;
@@ -480,8 +480,16 @@ header {
 
 
 
-/* Things to discuss with Vicky:
+/* 
+
+10/23 Things to discuss:
     - The divider looks a bit too big especially with the border+bg color
     - text width could be longer in web view?
     - to change each color of h3, we need to put them in separate divs
+
+10/24 For next time:
+    - changing some things up with the "images" for each of the section
+    - figure out the problem with the ladder and nth-child color
+    - try a new typeface/font for the blockquote?
+    - figure out why we can't view the mobile version on our actual iPhone
 
