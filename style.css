@@ -67,7 +67,7 @@ p {
     font-family: PP Radio Grotesk-Ultralight;
     font-size: 19px;
     line-height: 135%;
-    width: 90%;
+    width: 50%;
     margin: auto;
     margin-bottom: 2rem;
     max-width: 50rem;
@@ -206,6 +206,7 @@ header {
     color: gray;
 }
 
+/* Laurel Section Imagery */
 .imagery_laurel {
     display: flex;
     flex-direction: column;
@@ -213,6 +214,11 @@ header {
     align-content: center;
     justify-content: center;
     text-align: center;
+}
+
+.imagery_laurel p {
+    font-family: SF Mono;
+    color: gray;
 }
 
 .imagery_laurel-content {
@@ -228,6 +234,28 @@ header {
 
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
+}
+
+.imagery_laurel-content p:first-child {
+    transform: rotate(0deg);
+}
+
+.imagery_laurel-content p:nth-child(2) {
+    transform: rotate(90deg);
+}
+
+.imagery_laurel-content p:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.imagery_laurel-content p:nth-child(4) {
+    transform: rotate(270deg);
+}
+
+/* Color Blindess Image */
+.imagery_color-blindess-content-roygbiv p{
+    display: flex;
+    flex-direction: column;
 }
 
 /* the ladder thing */
