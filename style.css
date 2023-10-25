@@ -53,7 +53,7 @@ h2 {
 h3 {
     font-family: PP Radio Grotesk-Regular;
     font-size: 22px;
-    width: 30rem;
+    width: 75vw;
     border: 2px solid black;
     padding: 2px 7px 1px;
     margin-bottom: 30px;
@@ -103,6 +103,10 @@ header {
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
+}
+
+a {
+    text-decoration: underline 2px;
 }
 
 
@@ -223,6 +227,9 @@ header {
     align-content: center;
     justify-content: center;
     text-align: center;
+
+    width:75vw;
+    margin: auto;
 }
 
 .imagery_laurel p {
@@ -234,7 +241,6 @@ header {
 .imagery_laurel-content {
     display: flex;
     flex-direction: row;
-
     margin-bottom: -2rem;
 }
 
@@ -296,7 +302,7 @@ header {
 .imagery_color-blindness-content-roygbiv p {
     font-family: Pixelify;
     font-weight: 600;
-    font-size: 150px;
+    font-size: 70px;
 
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
@@ -358,7 +364,7 @@ header {
 .imagery_color-blindness-content-color-blind p {
     font-family: Pixelify;
     font-weight: 600;
-    font-size: 150px;
+    font-size: 70px;
 
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
@@ -426,9 +432,12 @@ header {
     justify-content: center;
     text-align: center; */
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(10, .5fr);
+    grid-template-rows: repeat(5, .75fr);
     gap: 1px;
+
+    width:75vw;
+    margin: auto;
 }
 
 .imagery_red-content-colors p {
@@ -441,6 +450,9 @@ header {
     justify-content: center;
     align-items: center;
     margin: -15px;
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black
 }
 
 .imagery_red-content-colors p:nth-child(1){
@@ -628,10 +640,20 @@ header {
     color: #ffffff;
 }
 
+.section_main-body > section:nth-of-type(1) a:hover {
+    background-color: #ff00ff;
+    transition: ease-in-out 0.3s;
+}
+
 /* Laurel Schwulst */
 .section_main-body > section:nth-of-type(2) .title-container .square,
 .section_main-body > section:nth-of-type(2) .title-container h3 {
     background-color: #f6fa70;
+}
+
+.section_main-body > section:nth-of-type(2) a:hover {
+    background-color: #f6fa70;
+    transition: ease-in-out 0.3s;
 }
 
 /* Color blind  */
@@ -730,12 +752,27 @@ header {
     }
 
     h3 {
-        font-size: 22px;
+    font-family: PP Radio Grotesk-Regular;
+    font-size: 22px;
+    width: 35vw;
+    border: 2px solid black;
+    padding: 2px 7px 1px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-top: 30px;
     }
 
     .square {
         width: 34px;
         height: 34px;
+    }
+
+    .imagery_color-blindness-content-roygbiv p {
+        font-size: 150px;
+    }
+
+    .imagery_color-blindness-content-color-blind p {
+        font-size: 150px;
     }
     
 }
