@@ -481,6 +481,7 @@ header {
 }
 
 
+
 /* MEDIA QUERY  */
 /* MEDIA QUERY  */
 
@@ -525,6 +526,15 @@ header {
     .header-subheading {
         font-size: 36px;
         margin-left: 0%;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .square {
+        width: 28px;
+        height: 28px;
     }
 }
 
