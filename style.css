@@ -53,15 +53,14 @@ h2 {
 h3 {
     font-family: PP Radio Grotesk-Regular;
     font-size: 22px;
-
     width: 30rem;
     border: 2px solid black;
-
     padding: 2px 7px 1px;
     margin-bottom: 30px;
     margin-left: 15px;
     margin-top: 30px;
 }
+
 
 p {
     font-family: PP Radio Grotesk-Ultralight;
@@ -417,15 +416,73 @@ header {
     left: -16px;
 }
 
-/* this is the square part */
-.square:first-child {
-    background-color: #ff00ff;
-} 
+/* The title-container coloring */
+/* The title-container coloring */
+/* The title-container coloring */
 
-.square:nth-child(2) {
+/* intro */
+.section_main-body > section:nth-of-type(1) .title-container .square,
+.section_main-body > section:nth-of-type(1) .title-container h3 {
+    background-color: #ff00ff;
+    color: #ffffff;
+}
+
+/* Laurel Schwulst */
+.section_main-body > section:nth-of-type(2) .title-container .square,
+.section_main-body > section:nth-of-type(2) .title-container h3 {
     background-color: #f6fa70;
 }
 
+/* Color blind  */
+.section_main-body > section:nth-of-type(3) .title-container .square,
+.section_main-body > section:nth-of-type(3) .title-container h3 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Different reds  */
+.section_main-body > section:nth-of-type(4) .title-container .square,
+.section_main-body > section:nth-of-type(4) .title-container h3 {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+/* Effect of Colors  */
+.section_main-body > section:nth-of-type(5) .title-container .square,
+.section_main-body > section:nth-of-type(5) .title-container h3 {
+    background-color: #00ffff;
+}
+
+/* Natura of surface  */
+.section_main-body > section:nth-of-type(6) .title-container .square,
+.section_main-body > section:nth-of-type(6) .title-container h3 {
+    background-color: #43B3ae;
+    color: #ffffff;
+}
+
+/* Purkinje Shift - Because we have our Java section, it goes from 6th child to 8th child */
+.section_main-body > section:nth-of-type(8) .title-container .square,
+.section_main-body > section:nth-of-type(8) .title-container h3 {
+    background-color: #00a560;
+    color: #ffffff;
+}
+
+/* Ultramarine  */
+.section_main-body > section:nth-of-type(9) .title-container .square,
+.section_main-body > section:nth-of-type(9) .title-container h3 {
+    background-color: #0437f2;
+    color: #ffffff;
+}
+
+/* Gray  */
+.section_main-body > section:nth-of-type(10) .title-container .square,
+.section_main-body > section:nth-of-type(10) .title-container h3 {
+    background-color: #808080;
+}
+
+
+/* MEDIA QUERY  */
+/* MEDIA QUERY  */
 
 /* laptop media query */
 @media (min-width: 1280px) {
@@ -492,4 +549,35 @@ header {
     - figure out the problem with the ladder and nth-child color
     - try a new typeface/font for the blockquote?
     - figure out why we can't view the mobile version on our actual iPhone
+/*  */
 
+
+
+/* note from Lucy 
+The way i tried originally to change colors on square and titles were: 
+
+.square:nth-child(1) {
+    background-color: red;
+}
+
+.square:nth-child(2) {
+    background-color: green;
+}
+
+.square:nth-child(3) {
+    background-color: blue;
+}
+
+.title-container:nth-child(1) h3 {
+    color: orange;
+}
+
+.title-container:nth-child(2) h3 {
+    color: pink;
+}
+
+.title-container:nth-child(3) h3 {
+    color: purple;
+}
+
+----- but this didn't work so i did the way i did above :( */
