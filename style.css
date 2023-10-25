@@ -173,29 +173,39 @@ header {
     align-content: center;
     justify-content: center;
     text-align: center;
-
     width: 200px;
 }
 
-.imagery_ryg-content p:first-child {
+/* .ryg-content p:first-child {
+    margin-bottom: -2rem; 
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+} */
+
+.imagery_ryg-content-red {
     font-family: Pixelify;
     font-size: 150px;
     font-weight: 600;
-    margin-bottom: -2rem;
-
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
-}
-
-.imagery_ryg-content-red {
     color: #F45050;
 }
 
 .imagery_ryg-content-yellow {
+    font-family: Pixelify;
+    font-size: 150px;
+    font-weight: 600;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
     color: #F6FA70;
 }
 
 .imagery_ryg-content-green {
+    font-family: Pixelify;
+    font-size: 150px;
+    font-weight: 600;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
     color: #36AE7C;
 }
 
@@ -278,7 +288,6 @@ header {
     align-content: center;
     justify-content: center;
     text-align: center;
-    
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: -2rem;
@@ -395,6 +404,195 @@ header {
     color: #49027C;
 }
 
+/* Imagery_red-content  */
+.imagery_red-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px;
+}
+
+.imagery_red-content p{
+    font-family: SF Mono;
+    font-size: 16px;
+    color: gray;
+    margin-top: 50px;
+}
+
+.imagery_red-content-colors {
+    /* display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1px;
+}
+
+.imagery_red-content-colors p {
+    font-family: Pixelify;
+    font-weight: 900;
+    font-size: 90px;
+    /* width: 50px;
+    height: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -15px;
+}
+
+.imagery_red-content-colors p:nth-child(1){
+    color: #f45050;
+}
+.imagery_red-content-colors p:nth-child(2){
+    color: #C70039;
+}
+.imagery_red-content-colors p:nth-child(3){
+    color: #D83F31;
+}
+.imagery_red-content-colors p:nth-child(4){
+    color: #D80032;
+}
+.imagery_red-content-colors p:nth-child(5){
+    color: #952323;
+}
+.imagery_red-content-colors p:nth-child(6){
+    color: #A73121;
+}
+.imagery_red-content-colors p:nth-child(7){
+    color: #BB2525;
+}
+.imagery_red-content-colors p:nth-child(8){
+    color: #F94C10;
+}
+.imagery_red-content-colors p:nth-child(9){
+    color: #C51605;
+}
+.imagery_red-content-colors p:nth-child(10){
+    color: #D71313;
+}
+.imagery_red-content-colors p:nth-child(11){
+    color: #FE0000;
+}
+.imagery_red-content-colors p:nth-child(12){
+    color: #EF6262;
+}
+.imagery_red-content-colors p:nth-child(13){
+    color: #F24C3D;
+}
+.imagery_red-content-colors p:nth-child(14){
+    color: #B31312;
+}
+.imagery_red-content-colors p:nth-child(15){
+    color: #CD1818;
+}
+.imagery_red-content-colors p:nth-child(16){
+    color: #B70404;
+}
+.imagery_red-content-colors p:nth-child(17){
+    color: #E76161;
+}
+.imagery_red-content-colors p:nth-child(18){
+    color: #B04759;
+}
+.imagery_red-content-colors p:nth-child(19){
+    color: #E06469;
+}
+.imagery_red-content-colors p:nth-child(20){
+    color: #FF6969;
+}
+.imagery_red-content-colors p:nth-child(21){
+    color: #FF6D60;
+}
+.imagery_red-content-colors p:nth-child(22){
+    color: #D21312;
+}
+.imagery_red-content-colors p:nth-child(23){
+    color: #ED2B2A;
+}
+.imagery_red-content-colors p:nth-child(24){
+    color: #F15A59;
+}
+.imagery_red-content-colors p:nth-child(25){
+    color: #E74646;
+}
+.imagery_red-content-colors p:nth-child(26){
+    color: #FC2947;
+}
+.imagery_red-content-colors p:nth-child(27){
+    color: #FE6244;
+}
+.imagery_red-content-colors p:nth-child(28){
+    color: #EA5455;
+}
+.imagery_red-content-colors p:nth-child(29){
+    color: #E21818;
+}
+.imagery_red-content-colors p:nth-child(30){
+    color: #DF2E38;
+}
+.imagery_red-content-colors p:nth-child(31){
+    color: #FF0303;
+}
+.imagery_red-content-colors p:nth-child(32){
+    color: #EB455F;
+}
+.imagery_red-content-colors p:nth-child(33){
+    color: #F16767;
+}
+.imagery_red-content-colors p:nth-child(34){
+    color: #F94A29;
+}
+.imagery_red-content-colors p:nth-child(35){
+    color: #F55050;
+}
+.imagery_red-content-colors p:nth-child(36){
+    color: #CD0404;
+}
+.imagery_red-content-colors p:nth-child(37){
+    color: #DC0000;
+}
+.imagery_red-content-colors p:nth-child(38){
+    color: #850000;
+}
+.imagery_red-content-colors p:nth-child(39){
+    color: #EB455F;
+}
+.imagery_red-content-colors p:nth-child(40){
+    color: #DC3535;
+}
+.imagery_red-content-colors p:nth-child(41){
+    color: #E14D2A;
+}
+.imagery_red-content-colors p:nth-child(42){
+    color: #FF6464;
+}
+.imagery_red-content-colors p:nth-child(43){
+    color: #FF5858;
+}
+.imagery_red-content-colors p:nth-child(44){
+    color: #CF0A0A;
+}
+.imagery_red-content-colors p:nth-child(45){
+    color: #B73E3E;
+}
+.imagery_red-content-colors p:nth-child(46){
+    color: #DD5353;
+}
+.imagery_red-content-colors p:nth-child(47){
+    color: #FF1E1E;
+}
+.imagery_red-content-colors p:nth-child(48){
+    color: #E14D2A;
+}
+.imagery_red-content-colors p:nth-child(49){
+    color: #CC3636;
+}
+.imagery_red-content-colors p:nth-child(50){
+    color: #D2001A;
+}
 
 /* the ladder thing */
 .section_main-body {
@@ -553,6 +751,7 @@ header {
     - The divider looks a bit too big especially with the border+bg color
     - text width could be longer in web view?
     - to change each color of h3, we need to put them in separate divs
+    + is the blockquote too big on web?
 
 10/24 For next time:
     - changing some things up with the "images" for each of the section
