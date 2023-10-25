@@ -144,7 +144,6 @@ a {
     column-gap: 30px;
     align-items: center;
     align-content: center;
-
     margin-bottom: 2rem;
 }
 
@@ -153,7 +152,7 @@ a {
 
     border: white solid 1.5px;
     border-radius: 100%;
-
+    position: relative;
     width: 45px;
     height: 45px;
 
@@ -637,12 +636,12 @@ a {
 /* intro */
 .section_main-body > section:nth-of-type(1) .title-container .square,
 .section_main-body > section:nth-of-type(1) .title-container h3 {
-    background-color: #ff00ff;
-    color: #ffffff;
+    background-color: #FF5BF8;
+    /* color: #ffffff; */
 }
 
 .section_main-body > section:nth-of-type(1) a:hover {
-    background-color: #ff00ff;
+    background-color: #FF5BF8;
     transition: ease-in-out 0.3s;
 }
 
@@ -660,15 +659,15 @@ a {
 /* Color blind  */
 .section_main-body > section:nth-of-type(3) .title-container .square,
 .section_main-body > section:nth-of-type(3) .title-container h3 {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    /* color: #ffffff; */
 }
 
 /* Different reds  */
 .section_main-body > section:nth-of-type(4) .title-container .square,
 .section_main-body > section:nth-of-type(4) .title-container h3 {
-    background-color: #ff0000;
-    color: #ffffff;
+    background-color: #FF444C;
+    /* color: #ffffff; */
 }
 
 /* Effect of Colors  */
@@ -681,27 +680,27 @@ a {
 .section_main-body > section:nth-of-type(6) .title-container .square,
 .section_main-body > section:nth-of-type(6) .title-container h3 {
     background-color: #43B3ae;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 /* Purkinje Shift - Because we have our Java section, it goes from 6th child to 8th child */
 .section_main-body > section:nth-of-type(8) .title-container .square,
 .section_main-body > section:nth-of-type(8) .title-container h3 {
-    background-color: #00a560;
-    color: #ffffff;
+    background-color: #36AE7C;
+    /* color: #ffffff; */
 }
 
 /* Ultramarine  */
 .section_main-body > section:nth-of-type(9) .title-container .square,
 .section_main-body > section:nth-of-type(9) .title-container h3 {
-    background-color: #0437f2;
-    color: #ffffff;
+    background-color: #3284FF;
+    /* color: #ffffff; */
 }
 
 /* Gray  */
 .section_main-body > section:nth-of-type(10) .title-container .square,
 .section_main-body > section:nth-of-type(10) .title-container h3 {
-    background-color: #808080;
+    background-color: #D9D9D9;
 }
 
 
@@ -808,31 +807,3 @@ a {
 
 
 
-/* note from Lucy 
-The way i tried originally to change colors on square and titles were: 
-
-.square:nth-child(1) {
-    background-color: red;
-}
-
-.square:nth-child(2) {
-    background-color: green;
-}
-
-.square:nth-child(3) {
-    background-color: blue;
-}
-
-.title-container:nth-child(1) h3 {
-    color: orange;
-}
-
-.title-container:nth-child(2) h3 {
-    color: pink;
-}
-
-.title-container:nth-child(3) h3 {
-    color: purple;
-}
-
------ but this didn't work so i did the way i did above :( */
