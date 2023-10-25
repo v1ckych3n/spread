@@ -710,10 +710,10 @@ a {
 /* MEDIA QUERY  */
 /* MEDIA QUERY  */
 
-laptop media query
+/* laptop media query */
 @media (min-width: 1280px) {
 
-    type styles
+    /* type styles */
     h1 {
         font-size: 150px;
         font-weight: 600;
