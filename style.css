@@ -41,7 +41,6 @@ h1 {
     font-size: 150px;
     font-weight: 600;
     line-height: 100%;
-    
     text-transform: uppercase;
 }
 
@@ -91,14 +90,13 @@ em {
 /* semantic DOM styling */
 body {
     margin-left: 5%;
+    /* width: 100vh;  */
 }
 
 header {
     background-color: #1B1C1E;
     color: white;
-
     min-height: 75vh;
-
     margin-bottom: 100px;
     margin-left: -5%;
     padding-top: 5%;
