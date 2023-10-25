@@ -38,7 +38,8 @@
 /* heading type styles */
 h1 {
     font-family: SF Pro;
-    font-size: 150px;
+    /* font-size: 150px; */
+    font-size: 26px;
     font-weight: 600;
     line-height: 100%;
     text-transform: uppercase;
@@ -75,8 +76,8 @@ blockquote {
     font-family: Bitter;
     font-size: 35px;
     line-height: 130%;
-    max-width: 50rem;
-    width: 700px;
+    /* max-width: 50rem; */
+    /* width: 700px; */
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -139,7 +140,7 @@ a {
 .header_imagery {
     display: flex;
     flex-direction: row;
-    column-gap: 30px;
+5
     align-items: center;
     align-content: center;
     margin-bottom: 2rem;
@@ -168,10 +169,6 @@ a {
 
 .header_imagery div:nth-of-type(2) {
     background-color: 
-}
-
-.section_main-body > section:nth-of-type(10) .title-container .square {
-
 }
 
 /* RYG "Image" */
@@ -240,7 +237,7 @@ a {
     justify-content: center;
     text-align: center;
 
-    width:75vw;
+    width:75%;
     margin: auto;
 }
 
@@ -258,7 +255,7 @@ a {
 
 .imagery_laurel-content p {
     font-family: Pixelify;
-    font-size: 150px;
+    font-size: 60px;
     font-weight: 600;
     color: #F6FA70;
 
@@ -314,7 +311,7 @@ a {
 .imagery_color-blindness-content-roygbiv p {
     font-family: Pixelify;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 36px;
 
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
@@ -376,7 +373,7 @@ a {
 .imagery_color-blindness-content-color-blind p {
     font-family: Pixelify;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 36px;
 
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
@@ -448,20 +445,20 @@ a {
     grid-template-rows: repeat(5, .75fr);
     gap: 1px;
 
-    width:75vw;
+    width:100px;
     margin: auto;
 }
 
 .imagery_red-content-colors p {
     font-family: Pixelify;
     font-weight: 900;
-    font-size: 90px;
+    font-size: 25px;
     /* width: 50px;
     height: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -15px;
+    /* margin: -15px; */
 
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black
@@ -776,7 +773,7 @@ a {
     }
     
     header {
-        max-height: 90vh;
+        min-height: 90vh;
     }
 
     /* class styles */
