@@ -148,7 +148,7 @@ a {
 }
 
 .header_imagery div {
-    background-color: transparent;
+    /* background-color: transparent; */
     border: white solid 1.5px;
     border-radius: 100%;
     position: relative;
@@ -162,6 +162,18 @@ a {
 
 .header_imagery div p {
     margin: 0px;
+}
+
+.header_imagery div:nth-of-type(1) {
+    background-color: #FF5BF8;
+}
+
+.header_imagery div:nth-of-type(2) {
+    background-color: 
+}
+
+.section_main-body > section:nth-of-type(10) .title-container .square {
+
 }
 
 /* RYG "Image" */
