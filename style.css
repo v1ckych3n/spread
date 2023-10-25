@@ -79,8 +79,9 @@ blockquote {
     max-width: 50rem;
     width: 700px;
     margin: auto;
-    margin-bottom: 20px;
-    padding-left: 10rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* padding-left: 10rem; */
 }
 
 em {
@@ -96,7 +97,7 @@ header {
     background-color: #1B1C1E;
     color: white;
 
-    min-height: 90vh;
+    min-height: 75vh;
 
     margin-bottom: 100px;
     margin-left: -5%;
@@ -727,7 +728,10 @@ a {
         font-size: 35px;
         line-height: 130%;
         max-width: 50rem;
+        margin-top: 100px;
         margin-bottom: 100px;
+
+        padding-left: 10rem;
     }
 
     /* semantic DOM */
@@ -736,7 +740,7 @@ a {
     }
     
     header {
-        min-height: 90vh;
+        max-height: 90vh;
     }
 
     /* class styles */
