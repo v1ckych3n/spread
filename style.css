@@ -149,23 +149,25 @@ a {
 
 .header_imagery div {
     background-color: transparent;
-
     border: white solid 1.5px;
     border-radius: 100%;
     position: relative;
     width: 45px;
     height: 45px;
-
     justify-content: center;
     align-items: center;
     text-align: center;
+    display: flex;
 } 
+
+.header_imagery div p {
+    margin: 0px;
+}
 
 /* RYG "Image" */
 .imagery_ryg {
     display: flex;
     flex-direction: row;
-    
     align-content: center;
     justify-content: center;
 }
