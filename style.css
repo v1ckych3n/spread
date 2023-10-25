@@ -604,6 +604,9 @@ header {
 .title-container {
     display: flex;
     align-items: center;
+
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 .square {
@@ -727,13 +730,14 @@ header {
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .square {
-        width: 28px;
-        height: 28px;
+        width: 34px;
+        height: 34px;
     }
+    
 }
 
 /* tablet media query */
