@@ -148,7 +148,7 @@ a {
 }
 
 .header_imagery div {
-    background-color: transparent;
+    /* background-color: transparent; */
     border: white solid 1.5px;
     border-radius: 100%;
     position: relative;
@@ -162,6 +162,18 @@ a {
 
 .header_imagery div p {
     margin: 0px;
+}
+
+.header_imagery div:nth-of-type(1) {
+    background-color: #FF5BF8;
+}
+
+.header_imagery div:nth-of-type(2) {
+    background-color: 
+}
+
+.section_main-body > section:nth-of-type(10) .title-container .square {
+
 }
 
 /* RYG "Image" */
@@ -662,14 +674,17 @@ a {
 .section_main-body > section:nth-of-type(3) .title-container .square,
 .section_main-body > section:nth-of-type(3) .title-container h3 {
     background-color: #ffffff;
-    /* color: #ffffff; */
 }
 
 /* Different reds  */
 .section_main-body > section:nth-of-type(4) .title-container .square,
 .section_main-body > section:nth-of-type(4) .title-container h3 {
     background-color: #FF444C;
-    /* color: #ffffff; */
+}
+
+.section_main-body > section:nth-of-type(4) a:hover {
+    background-color: #FF444C;
+    transition: ease-in-out 0.3s;
 }
 
 /* Effect of Colors  */
@@ -678,31 +693,53 @@ a {
     background-color: #00ffff;
 }
 
+.section_main-body > section:nth-of-type(5) a:hover {
+    background-color: #00ffff;
+    transition: ease-in-out 0.3s;
+}
+
 /* Natura of surface  */
 .section_main-body > section:nth-of-type(6) .title-container .square,
 .section_main-body > section:nth-of-type(6) .title-container h3 {
     background-color: #43B3ae;
-    /* color: #ffffff; */
+}
+
+.section_main-body > section:nth-of-type(6) a:hover {
+    background-color: #43b3ae;
+    transition: ease-in-out 0.3s;
 }
 
 /* Purkinje Shift - Because we have our Java section, it goes from 6th child to 8th child */
 .section_main-body > section:nth-of-type(8) .title-container .square,
 .section_main-body > section:nth-of-type(8) .title-container h3 {
     background-color: #36AE7C;
-    /* color: #ffffff; */
+}
+
+.section_main-body > section:nth-of-type(8) a:hover {
+    background-color: #36ae7c;
+    transition: ease-in-out 0.3s;
 }
 
 /* Ultramarine  */
 .section_main-body > section:nth-of-type(9) .title-container .square,
 .section_main-body > section:nth-of-type(9) .title-container h3 {
     background-color: #3284FF;
-    /* color: #ffffff; */
+}
+
+.section_main-body > section:nth-of-type(9) a:hover {
+    background-color: #3284FF;
+    transition: ease-in-out 0.3s;
 }
 
 /* Gray  */
 .section_main-body > section:nth-of-type(10) .title-container .square,
 .section_main-body > section:nth-of-type(10) .title-container h3 {
     background-color: #D9D9D9;
+}
+
+.section_main-body > section:nth-of-type(10) a:hover {
+    background-color: #D9D9D9;
+    transition: ease-in-out 0.3s;
 }
 
 
