@@ -794,6 +794,21 @@ header {
 @media (min-width: 1280px) {
     :root {
         --h1-font-size: 150px;
+        --main-text-font-size: 26px;
+    }
+
+    p {
+        width: 650px;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    /* class styles */
+
+    /* RYG Imagery */
+    .imagery_ryg {
+        justify-content: center;
+        margin: 0;
     }
 }
     
