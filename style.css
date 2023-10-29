@@ -34,100 +34,151 @@
     src: url(fonts/SF-Mono-Regular.otf)
 }
 
+/* variable list */
+:root {
+    /* general styles */
+    --heading-font-family: PP Radio Grotesk-Regular;
+    --label-background-width: 75vw;
+    --label-border: 2px solid black;
+    --label-padding: 3px 8px 2px;
+    --label-margin: 30px 32px;
+    --main-line-height: 135%;
+    --dark-background: black;
+    --main-margin-bottom: 100px;
 
-/* heading type styles */
+    /* imagery style(s) */
+    --imagery-font-family: Pixelify;
+    --outline-width: 1.5px;
+    --outline-color: black;
+    --imagery-font-weight: 600;
+
+    --imagery-caption-font-family: SF Mono;
+    --imagery-caption-font-size: 16px;
+    --imagery-caption-font-color: gray;
+
+    /* interaction style(s) */
+    --hover-effect: ease-in-out 0.3s;
+
+    /* H1 styles */
+    --h1-font-family: SF Pro;
+    --h1-font-size: 60px;
+    --h1-font-weight: 600;
+    --h1-line-height: 100%;
+
+    /* H2 style(s) */
+    --h2-font-size: 36px;
+
+    /* H3 style(s) */
+    --h3-font-size: 17px;
+
+    /* H4 style(s) */
+    --h4-font-size: 20px;
+    --h4-width: 90%;
+    --h4-margin: 25px 0px;
+
+    /* paragraph style(s) */
+    --main-text-font-family: PP Radio Grotesk-Ultralight;
+    --main-text-font-size: 19px;
+    --main-text-width: 90%;
+    --paragraph-spacing: 2rem;
+
+    /* blockquote style(s) */
+    --blockquote-font-family: Bitter;
+    --blockquote-font-size: 27px;
+    --blockquote-margin: 100px 30px 100px 40px;
+
+    /* header style(s) */
+    --header-height: 100%;
+    --header-padding: 5%;
+
+    /* main color scheme */
+    --introduction-section: #FF5BF8;
+    --laurel-section: #f6fa70;
+    --color-blindness-section: white;
+    --different-reds-section: #FF444C;
+    --effect-of-colors-section: #00ffff;
+    --nature-of-surface-section: #43B3ae;
+    --purkinje-section: #36AE7C;
+    --ultramarine-section: #3284FF;
+    --gray-section: #D9D9D9;
+}
+
+/* heading styles */
 h1 {
-    font-family: SF Pro;
-    /* font-size: 150px; */
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 100%;
+    font-family: var(--h1-font-family);
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+    line-height: var(--h1-line-height);
     text-transform: uppercase;
 }
 
 h2 {
-    font-family: PP Radio Grotesk-Regular;
-    font-size: 36px;
+    font-family: var(--heading-font-family);
+    font-size: var(--h2-font-size);
 }
 
 h3 {
-    font-family: PP Radio Grotesk-Regular;
-    font-size: 17px;
-    width: 75vw;
-    border: 2px solid black;
-    padding: 3px 8px 2px;
-    margin-bottom: 30px;
-    margin-left: 32px;
-    margin-top: 30px;
+    font-family: var(--heading-font-family);
+    width: var(--label-background-width);
+    border: var(--label-border);
+    padding: var(--label-padding);
+    margin: var(--label-margin);
 }
 
 h4 {
-    font-family: PP Radio Grotesk-Regular;
-    font-size: 20px;
-    width: 90%;
-    margin: 25px 0px;
+    font-family: var(--heading-font-family);
+    font-size: var(--h4-font-size);
+    width: var(--h4-width);
+    margin: var(--h4-margin);
 }
 
-
 p {
-    font-family: PP Radio Grotesk-Ultralight;
-    font-size: 19px;
-    line-height: 135%;
-    width: 87%;
+    font-family: var(--main-text-font-family);
+    font-size: var(--main-text-font-size);
+    line-height: var(--main-line-height);
+
+    width: var(--main-text-width);
     margin: auto;
-    margin-bottom: 2rem;
-    max-width: 50rem;
+    margin-bottom: var(--paragraph-spacing)
 }
 
 blockquote {
-    font-family: Bitter;
-    font-size: 27px;
-    line-height: 130%;
-    margin: 100px 30px 100px 40px;
-    /* max-width: 50rem; */
-    /* width: 700px; */
-    /* margin: auto; */
-    /* margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 40px; */
-    /* padding-left: 10rem; */
+    font-family: var(--blockquote-font-family);
+    font-size: var(--blockquote-font-size);
+    line-height: var(--main-line-height);
+    margin: var(--blockquote-margin);
 }
 
 em {
     font-family: PP Radio Grotesk-UltralightItalic;
 }
 
-/* semantic DOM styling */
-body {
-    margin-left: 5%;
-    /* width: 100vh;  */
-}
-
-header {
-    background-color: #1B1C1E;
-    color: white;
-    min-height: 75vh;
-    margin-bottom: 100px;
-    margin-left: -5%;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-}
-
 a {
     text-decoration: underline 2px;
 }
 
-.section_main-body {
-    margin-bottom: 100px;
+/* semantic DOM */
+body {
+    margin: 5%;
 }
 
+header {
+    background: black;
+    color: white; 
+    min-height: var(--header-height);
+    margin: -5%;
+    margin-bottom: var(--main-margin-bottom);
+    padding: var(--header-padding);
+}
 
 /* class styles */
+.section_main-body {
+    margin-bottom: var(--main-margin-bottom);
+}
+
 .header_outline-text {
     color: transparent;
-
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: var(--outline-width);
     -webkit-text-stroke-color: white;
 }
 
@@ -137,30 +188,30 @@ a {
 }
 
 .header_subheading {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 100%;
 
     margin-left: 0%;
+    margin-bottom: 25px;
 }
 
 .header_smaller-subheading {
-    font-size: 24px;
+    font-size: 20px;
 
     margin-left: 0%;
+    margin-bottom: 25px;
 }
 
-/* trying to do the circle div container for the everyday imagery */
+/* Header Imagery */
 .header_imagery {
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 25px;
 }
 
 .header_imagery div {
-    /* background-color: transparent; */
-    /* border: white solid 1.5px; */
     border-radius: 100%;
     position: relative;
     width: 30px;
@@ -170,50 +221,161 @@ a {
     text-align: center;
     display: flex;
     margin-right: 1rem;
-    /* column-gap: 2rem; */
-} 
+}
 
 .header_imagery div p {
     margin: 0px;
     color: black;
-    font-family: PPRadioGrotesk-Regular;
+    font-family: var(--heading-font-family);
     font-size: 16px;
 }
 
 .header_imagery div:nth-of-type(1) {
-    background-color: #FF5BF8;
+    background-color: var(--introduction-section);
 }
 
 .header_imagery div:nth-of-type(2) {
-    background-color: #f6fa70;
+    background-color: var(--laurel-section);
 }
 
 .header_imagery div:nth-of-type(3) {
-    background-color: #ffffff;
+    background-color: var(--color-blindness-section);
 }
 
 .header_imagery div:nth-of-type(4) {
-    background-color: #FF444C;
+    background-color: var(--different-reds-section);
 }
 
 .header_imagery div:nth-of-type(5) {
-    background-color: #00ffff;
+    background-color: var(--effect-of-colors-section);
 }
 
 .header_imagery div:nth-of-type(6) {
-    background-color: #43B3ae;
+    background-color: var(--nature-of-surface-section);
 }
 
 .header_imagery div:nth-of-type(7) {
-    background-color: #36AE7C;
+    background-color: var(--purkinje-section);
 }
 
-/* RYG "Image" */
+/* the ladder thing */
+.section_main-body {
+    border-left: 2px solid #000;
+    /* padding: 0 0 0 30px; */
+    position: relative;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    position: absolute;
+    left: -16px;
+}
+
+/* introduction */
+.section_main-body > section:nth-of-type(1) .title-container .square, .section_main-body > section:nth-of-type(1) .title-container h3 {
+    background-color: var(--introduction-section);
+}
+
+.section_main-body > section:nth-of-type(1) a:hover {
+    background-color: var(--introduction-section);
+    transition: var(--hover-effect);
+}
+
+/* Laurel Schwulst */
+.section_main-body > section:nth-of-type(2) .title-container .square, .section_main-body > section:nth-of-type(2) .title-container h3 {
+    background-color: var(--laurel-section);
+}
+
+.section_main-body > section:nth-of-type(2) a:hover {
+    background-color: var(--laurel-section);
+    transition: var(--hover-effect);
+}
+
+/* Color Blind */
+.section_main-body > section:nth-of-type(3) .title-container .square, .section_main-body > section:nth-of-type(3) .title-container h3 {
+    background-color: var(--color-blindness-section);
+}
+
+.section_main-body > section:nth-of-type(3) a:hover {
+    background-color: var(--color-blindness-section);
+    transition: var(--hover-effect);
+}
+
+/* Different reds */
+.section_main-body > section:nth-of-type(4) .title-container .sqaure, .section_main-body > section:nth-of-type(4) .title-container h3 {
+    background-color: var(--different-reds-section);
+}
+
+.section_main-body > section:nth-of-type(4) a:hover {
+    background-color: var(--different-reds-section);
+    transition: var(--hover-effect);
+}
+
+/* Effects of Colors */
+.section_main-body > section:nth-of-type(5) .title-container .square, .section_main-body > section:nth-of-type(5) .title-container h3 {
+    background-color: var(--effect-of-colors-section);
+}
+
+.section_main-body > section:nth-of-type(5) a:hover {
+    background-color: var(--effect-of-colors-section);
+    transition: var(--hover-effect);
+}
+
+/* Nature of Surface */
+.section_main-body > section:nth-of-type(6) .title-container .square, .section_main-body > section:nth-of-type(6) .title-container h3 {
+    background-color: var(--nature-of-surface-section);
+}
+
+.section_main-body > section:nth-of-type(6) a:hover {
+    background-color: var(--nature-of-surface-section);
+    transition: var(--hover-effect);
+}
+
+/* Purkinje Section - Because we have our Java section, it goes from 6th child to 8th child */
+.section_main-body > section:nth-of-type(8) .title-container .square, .section_main-body > section:nth-of-type(8) .title-container h3 {
+    background-color: var(--purkinje-section);
+}
+
+.section_main-body > section:nth-of-type(8) a:hover {
+    background-color: var(--purkinje-section);
+    transition: var(--hover-effect);
+}
+
+/* Ultramarine Section */
+.section_main-body > section:nth-of-type(9) .title-container .square, .section_main-body > section:nth-of-type(9) .title-container h3 {
+    background-color: var(--ultramarine-section);
+}
+
+.section_main-body > section:nth-of-type(9) a:hover {
+    background-color: var(--ultramarine-section);
+    transition: var(--hover-effect);
+}
+
+/* Gray Section */
+.section_main-body > section:nth-of-type(10) .title-container .square, .section_main-body > section:nth-of-type(10) .title-container h3 {
+    background-color: var(--gray-section);
+}
+
+.section_main-body > section:nth-of-type(10) a:hover {
+    background-color: var(--gray-section);
+    transition: var(--hover-effect);
+}
+
+/* RYG Imagery */
 .imagery_ryg {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .imagery_ryg-content {
@@ -226,62 +388,56 @@ a {
     width: 200px;
 }
 
-/* .ryg-content p:first-child {
-    margin-bottom: -2rem; 
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
-} */
-
 .imagery_ryg-content-red {
-    font-family: Pixelify;
-    font-size: 150px;
-    font-weight: 600;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    font-family: var(--imagery-font-family);
+    font-size: 125px;
+    font-weight: var(--imagery-font-weight);
     color: #F45050;
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
 }
 
 .imagery_ryg-content-yellow {
-    font-family: Pixelify;
-    font-size: 150px;
-    font-weight: 600;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    font-family: var(--imagery-font-family);
+    font-size: 125px;
+    font-weight: var(--imagery-font-weight);
     color: #F6FA70;
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
 }
 
 .imagery_ryg-content-green {
-    font-family: Pixelify;
-    font-size: 150px;
-    font-weight: 600;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    font-family: var(--imagery-font-family);
+    font-size: 125px;
+    font-weight: var(--imagery-font-weight);
     color: #36AE7C;
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
 }
 
-.imagery_ryg-content p:nth-child(2){
-    font-family: SF Mono;
-    font-size: 16px;
-    color: gray;
+.imagery_ryg-content p:nth-child(2) {
+    font-family: var(--imagery-caption-font-family);
+    font-size: var(--imagery-caption-font-size);
+    color: var(--imagery-caption-font-color);
+    margin-top: -2rem;
 }
 
-/* Laurel Section "Image" */
+/* Laurel Section "Imagery' */
 .imagery_laurel {
     display: flex;
     flex-direction: column;
     column-gap: 1rem;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 
-    width:75%;
     margin: auto;
 }
 
 .imagery_laurel p {
-    font-family: SF Mono;
-    font-size: 16px;
-    color: gray;
+    font-family: var(--imagery-caption-font-family);
+    font-size: var(--imagery-caption-font-size);
+    color: var(--imagery-caption-font-color);
 }
 
 .imagery_laurel-content {
@@ -291,13 +447,12 @@ a {
 }
 
 .imagery_laurel-content p {
-    font-family: Pixelify;
-    font-size: 60px;
-    font-weight: 600;
-    color: #F6FA70;
-
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    font-family: var(--imagery-font-family);
+    font-weight: var(--imagery-font-weight);
+    font-size: 75px;
+    color: var(--laurel-section);
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
 }
 
 .imagery_laurel-content p:first-child {
@@ -316,7 +471,7 @@ a {
     transform: rotate(270deg);
 }
 
-/* Color Blindess "Image" */
+/* Color Blindness "Image" */
 .imagery_color-blindness {
     display: flex;
     flex-direction: column;
@@ -329,29 +484,27 @@ a {
 }
 
 .imagery_color-blindness-content p{
-    font-family: SF Mono;
-    font-size: 16px;
-    color: gray;
+    font-family: var(--imagery-caption-font-family);
+    font-size: var(--imagery-caption-font-size);
+    color: var(--imagery-caption-font-color);
 }
 
 .imagery_color-blindness-content-roygbiv {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-bottom: -2rem;
 }
 
 .imagery_color-blindness-content-roygbiv p {
-    font-family: Pixelify;
-    font-weight: 600;
+    font-family: var(--imagery-font-family);
+    font-weight: var(--imagery-font-weight);
     font-size: 36px;
 
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
 }
 
 .imagery_color-blindness-content-roygbiv p:first-child {
@@ -398,22 +551,18 @@ a {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    
-    margin-left: 10%;
-    margin-right: 10%;
-
     margin-bottom: -2rem;
 }
 
 .imagery_color-blindness-content-color-blind p {
-    font-family: Pixelify;
-    font-weight: 600;
+    font-family: var(--imagery-font-family);
+    font-weight: var(--imagery-font-weight);
     font-size: 36px;
 
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
 }
 
 .imagery_color-blindness-content-color-blind p:first-child {
@@ -456,41 +605,38 @@ a {
     color: #49027C;
 }
 
-/* Imagery_red-content  */
+/* Different Reds "Imagery" */
 .imagery_red-content {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .imagery_red-content p{
-    font-family: SF Mono;
-    font-size: 16px;
-    color: gray;
-    margin: 0;
+    font-family: var(--imagery-caption-font-family);
+    font-size: var(--imagery-caption-font-size);
+    color: var(--imagery-caption-font-color);
 }
 
 .imagery_red-content-colors {
     display: grid;
     grid-template-columns: repeat(10, .5fr);
     grid-template-rows: repeat(5, .75fr);
-    gap: 1px;
-    width:100px;
-    justify-content: center;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
 }
 
 .imagery_red-content-colors p {
-    font-family: Pixelify;
-    font-weight: 900;
-    font-size: 45px;
+    font-family: var(--imagery-font-family);
+    font-weight: var(--imagery-font-weight);
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
 }
 
 .imagery_red-content-colors p:nth-child(1){
@@ -644,284 +790,11 @@ a {
     color: #D2001A;
 }
 
-/* the ladder thing */
-.section_main-body {
-    border-left: 2px solid #000;
-    /* padding: 0 0 0 30px; */
-    position: relative;
-}
-
-.title-container {
-    display: flex;
-    align-items: center;
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
-
-.square {
-    width: 30px;
-    height: 30px;
-    border: 2px solid #000;
-    position: absolute;
-    left: -16px;
-}
-
-/* The title-container coloring */
-/* The title-container coloring */
-/* The title-container coloring */
-
-/* intro */
-.section_main-body > section:nth-of-type(1) .title-container .square,
-.section_main-body > section:nth-of-type(1) .title-container h3 {
-    background-color: #FF5BF8;
-    /* color: #ffffff; */
-}
-
-.section_main-body > section:nth-of-type(1) a:hover {
-    background-color: #FF5BF8;
-    transition: ease-in-out 0.3s;
-}
-
-/* Laurel Schwulst */
-.section_main-body > section:nth-of-type(2) .title-container .square,
-.section_main-body > section:nth-of-type(2) .title-container h3 {
-    background-color: #f6fa70;
-}
-
-.section_main-body > section:nth-of-type(2) a:hover {
-    background-color: #f6fa70;
-    transition: ease-in-out 0.3s;
-}
-
-/* Color blind  */
-.section_main-body > section:nth-of-type(3) .title-container .square,
-.section_main-body > section:nth-of-type(3) .title-container h3 {
-    background-color: #ffffff;
-}
-
-/* Different reds  */
-.section_main-body > section:nth-of-type(4) .title-container .square,
-.section_main-body > section:nth-of-type(4) .title-container h3 {
-    background-color: #FF444C;
-}
-
-.section_main-body > section:nth-of-type(4) a:hover {
-    background-color: #FF444C;
-    transition: ease-in-out 0.3s;
-}
-
-/* Effect of Colors  */
-.section_main-body > section:nth-of-type(5) .title-container .square,
-.section_main-body > section:nth-of-type(5) .title-container h3 {
-    background-color: #00ffff;
-}
-
-.section_main-body > section:nth-of-type(5) a:hover {
-    background-color: #00ffff;
-    transition: ease-in-out 0.3s;
-}
-
-/* Natura of surface  */
-.section_main-body > section:nth-of-type(6) .title-container .square,
-.section_main-body > section:nth-of-type(6) .title-container h3 {
-    background-color: #43B3ae;
-}
-
-.section_main-body > section:nth-of-type(6) a:hover {
-    background-color: #43b3ae;
-    transition: ease-in-out 0.3s;
-}
-
-/* Purkinje Shift - Because we have our Java section, it goes from 6th child to 8th child */
-.section_main-body > section:nth-of-type(8) .title-container .square,
-.section_main-body > section:nth-of-type(8) .title-container h3 {
-    background-color: #36AE7C;
-}
-
-.section_main-body > section:nth-of-type(8) a:hover {
-    background-color: #36ae7c;
-    transition: ease-in-out 0.3s;
-}
-
-/* Ultramarine  */
-.section_main-body > section:nth-of-type(9) .title-container .square,
-.section_main-body > section:nth-of-type(9) .title-container h3 {
-    background-color: #3284FF;
-}
-
-.section_main-body > section:nth-of-type(9) a:hover {
-    background-color: #3284FF;
-    transition: ease-in-out 0.3s;
-}
-
-/* Gray  */
-.section_main-body > section:nth-of-type(10) .title-container .square,
-.section_main-body > section:nth-of-type(10) .title-container h3 {
-    background-color: #D9D9D9;
-}
-
-.section_main-body > section:nth-of-type(10) a:hover {
-    background-color: #D9D9D9;
-    transition: ease-in-out 0.3s;
-}
-
-
-/* Group collage exercise section  */
-
-.group-collage {
-    background-color: #000;
-    margin-left: -5%;
-    padding: 20px;
-}
-
-.group-collage h2, h4 {
-    color: #ffffff;
-}
-
-.group-collage p {
-    color: #ffffff;
-}
-
-.group-collage h2 {
-    font-size: 33px;
-}
-
-
-/* MEDIA QUERY  */
-/* MEDIA QUERY  */
-/* MEDIA QUERY  */
-/* MEDIA QUERY  */
-/* MEDIA QUERY  */
-/* MEDIA QUERY  */
-/* MEDIA QUERY  */
-
-/* laptop media query */
+/* Desktop Media Query */
 @media (min-width: 1280px) {
-
-    /* type styles */
-    h1 {
-        font-size: 150px;
-        font-weight: 600;
+    :root {
+        --h1-font-size: 150px;
     }
-
-    p {
-        font-size: 23px;
-        line-height: 140%;
-        width: 50%;
-    }
-
-    blockquote {
-        font-size: 32px;
-        line-height: 130%;
-        max-width: 50rem;
-        margin: 100px 0 100px 270px;
-        padding-left: 10rem;
-    }
-
-    /* semantic DOM */
-    body {
-        margin-left: 5%;
-    }
-    
-    header {
-        min-height: 90vh;
-    }
-
-    /* class styles */
-    .header-disclaimer-paragraph {
-        font-size: 16px;
-        margin-left: 0%;
-        margin-top: 50px;
-    }
-
-    .header-subheading {
-        font-size: 36px;
-        margin-left: 0%;
-    }
-
-    h3 {
-    font-family: PP Radio Grotesk-Regular;
-    font-size: 22px;
-    width: 35vw;
-    border: 2px solid black;
-    padding: 2px 7px 1px;
-    margin-bottom: 30px;
-    margin-left: 35px;
-    margin-top: 30px;
-    }
-
-    .square {
-        width: 34px;
-        height: 34px;
-    }
-
-    .imagery_color-blindness-content-roygbiv p {
-        font-size: 150px;
-    }
-
-    .imagery_color-blindness-content-color-blind p {
-        font-size: 150px;
-    }
-    
-    .imagery_red-content p{
-        font-family: SF Mono;
-        font-size: 16px;
-        color: gray;
-        margin: 0;
-    }
-    
-    .imagery_red-content-colors {
-        display: grid;
-        grid-template-columns: repeat(10, .5fr);
-        grid-template-rows: repeat(5, .75fr);
-        gap: 1px;
-        width:100px;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    
-    .imagery_red-content-colors p {
-        font-family: Pixelify;
-        font-weight: 900;
-        font-size: 90px;
-        margin: 0 5px 0 5px;
-    }
-
-    .group-collage h4 {
-        width: 60%;
-        line-height: 1.5;
-        margin: auto;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
-
+}
     
 }
-
-/* tablet media query */
-@media (min-width: 425px) {
-
-}
-
-
-
-
-
-/* 
-
-10/23 Things to discuss:
-    - The divider looks a bit too big especially with the border+bg color
-    - text width could be longer in web view?
-    - to change each color of h3, we need to put them in separate divs
-    + is the blockquote too big on web?
-    + we should maybe consider changing the square.title color to softer ones for some section
-
-10/24 For next time:
-    - changing some things up with the "images" for each of the section
-    - figure out the problem with the ladder and nth-child color
-    - try a new typeface/font for the blockquote?
-    - figure out why we can't view the mobile version on our actual iPhone
-/*  */
-
-
-
