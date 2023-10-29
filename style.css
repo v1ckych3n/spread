@@ -803,6 +803,12 @@ header {
         margin-bottom: 2rem;
     }
 
+    blockquote {
+        width: 650px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
     /* class styles */
 
     /* RYG Imagery */
