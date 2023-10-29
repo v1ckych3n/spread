@@ -48,10 +48,9 @@
 
     /* imagery style(s) */
     --imagery-font-family: Pixelify;
-    --outline-width: 1.5px;
+    --outline-width: 1px;
     --outline-color: black;
     --imagery-font-weight: 600;
-
     --imagery-caption-font-family: SF Mono;
     --imagery-caption-font-size: 16px;
     --imagery-caption-font-color: gray;
@@ -136,7 +135,6 @@ p {
     font-family: var(--main-text-font-family);
     font-size: var(--main-text-font-size);
     line-height: var(--main-line-height);
-
     width: var(--main-text-width);
     margin: auto;
     margin-bottom: var(--paragraph-spacing)
@@ -311,7 +309,7 @@ header {
 }
 
 /* Different reds */
-.section_main-body > section:nth-of-type(4) .title-container .sqaure, .section_main-body > section:nth-of-type(4) .title-container h3 {
+.section_main-body > section:nth-of-type(4) .title-container .square, .section_main-body > section:nth-of-type(4) .title-container h3 {
     background-color: var(--different-reds-section);
 }
 
@@ -790,6 +788,42 @@ header {
     color: #D2001A;
 }
 
+/* Gray section Imagery */
+.imagery_gray-content-colors p {
+    font-family: var(--imagery-font-family);
+    font-weight: var(--imagery-font-weight);
+    font-size: 70px;
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.imagery_gray-content-label p {
+    font-family: var(--imagery-caption-font-family);
+    font-size: var(--imagery-caption-font-size);
+    color: var(--imagery-caption-font-color);
+}
+
+.imagery_gray-content {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat (2, auto);
+    /* flex-direction: column; */
+    text-align: center;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.imagery_gray-content-colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+
 /* Desktop Media Query */
 @media (min-width: 1280px) {
     :root {
@@ -818,4 +852,3 @@ header {
     }
 }
     
-}
