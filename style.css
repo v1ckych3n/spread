@@ -878,26 +878,26 @@ header {
 }
 
 .group-collage h2, h4, p {
-    margin: auto;
+    /* margin: auto; */
     justify-content: center;
     width: 90%;
     line-height: 1.5;
 }
 
 .group-collage h2 {
-    margin-bottom: 50px;
     font-size: 31px;
     color: #fff;
+    margin: auto;
 }
 
 .group-collage h4 {
-    margin-bottom: 30px;
     color: #fff;
+    margin: auto;
 }
 
 .group-collage p {
-    margin-bottom: 15px;
     color: #fff;
+    margin: auto;
 }
 
 
@@ -916,8 +916,10 @@ header {
     }
 
     blockquote {
-        width: 70%;
+        width: 60%;
         margin: 100px 30px 100px 200px;
+        border-left: 10px solid gray;
+        padding-left: 20px;
     }
 
      /* ryg imagery  */
@@ -927,8 +929,9 @@ header {
     }
 
     /* Laurel imagery  */
-    .imagery_laurel {
+    .imagery_laurel p {
         width: 70%;
+        margin-top: 20px;
     }
 
     .imagery_laurel-content p {
