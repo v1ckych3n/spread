@@ -85,6 +85,7 @@
     --blockquote-font-family: Bitter;
     --blockquote-font-size: 27px;
     --blockquote-margin: 100px 30px 100px 40px;
+    --blockquote-color: rgb(148, 148, 148);
 
     /* header style(s) */
     --header-height: 100%;
@@ -145,6 +146,8 @@ blockquote {
     font-size: var(--blockquote-font-size);
     line-height: var(--main-line-height);
     margin: var(--blockquote-margin);
+    color: var(--blockquote-color);
+    text-indent: -10px;
 }
 
 em {
@@ -918,8 +921,8 @@ header {
     blockquote {
         width: 60%;
         margin: 100px 30px 100px 200px;
-        border-left: 10px solid gray;
-        padding-left: 20px;
+        border-left: 10px solid rgb(187, 187, 187);
+        padding-left: 30px;
     }
 
      /* ryg imagery  */
@@ -949,10 +952,14 @@ header {
     }
 
      /* red imagery  */
+     .imagery_red-content {
+        margin-top: 20px;
+     }
+
      .imagery_red-content-colors p {
         font-weight: ;
         font-size: 60px;
-        margin:0 10px 0;
+        margin:0 7px 0;
     }
 
     /* gray imagery  */
@@ -1028,7 +1035,7 @@ header {
     .imagery_red-content-colors p {
         font-weight: ;
         font-size: 80px;
-        margin:0 20px 0;
+        margin:0 12px 0;
     }
 
     /* group collage section  */
