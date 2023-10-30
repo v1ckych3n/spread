@@ -882,19 +882,22 @@ header {
     justify-content: center;
     width: 90%;
     line-height: 1.5;
-    color: #fff;
 }
 
 .group-collage h2 {
     margin-bottom: 50px;
+    font-size: 31px;
+    color: #fff;
 }
 
 .group-collage h4 {
     margin-bottom: 30px;
+    color: #fff;
 }
 
 .group-collage p {
     margin-bottom: 15px;
+    color: #fff;
 }
 
 
@@ -906,6 +909,10 @@ header {
     p {
         width: 70%;
         font-size: 23px;
+    }
+
+    h3 {
+        width: 50%;
     }
 
     blockquote {
@@ -968,9 +975,6 @@ header {
         margin-bottom: 20px;
     }
  
-
-     
-
 }
 
 /* Desktop Media Query */
@@ -1016,7 +1020,6 @@ header {
     .imagery_color-blindness-content-roygbiv p, .imagery_color-blindness-content-color-blind p {
         font-size: 80px;
     }
-
 
     /* red imagery  */
     .imagery_red-content-colors p {
