@@ -804,6 +804,8 @@ header {
     font-family: var(--imagery-caption-font-family);
     font-size: var(--imagery-caption-font-size);
     color: var(--imagery-caption-font-color);
+    -webkit-text-stroke-color: none;
+    -webkit-text-stroke-width: none;
 }
 
 .imagery_gray-content {
@@ -869,31 +871,71 @@ header {
 }
 
 
+/* Tablet Media Query  */
+/* Tablet Media Query  */
+/* Tablet Media Query  */
+/* Tablet Media Query  */
+@media (min-width: 768px) {
+    p {
+        width: 70%;
+        font-size: 23px;
+    }
+
+    blockquote {
+        width: 70%;
+        margin: 100px 30px 100px 200px;
+    }
+
+     /* red imagery  */
+     .imagery_red-content-colors p {
+        font-weight: ;
+        font-size: 60px;
+        margin:0 10px 0;
+    }
+}
+
+/* Desktop Media Query */
+/* Desktop Media Query */
+/* Desktop Media Query */
 /* Desktop Media Query */
 @media (min-width: 1280px) {
-    /* :root {
+    :root {
         --h1-font-size: 150px;
         --main-text-font-size: 26px;
     }
 
     p {
-        width: 650px;
-        margin: auto;
+        width: 50%;
+        /* margin: auto; */
         margin-bottom: 2rem;
     }
 
     blockquote {
-        width: 650px;
-        margin: auto;
-        margin-bottom: 100px;
-    } */
+        width: 50%;
+        /* margin: auto; */
+        margin: 100px 30px 100px 500px;
+    }
+
+    h3 {
+        width: 50%;
+    }
 
     /* class styles */
 
     /* RYG Imagery */
-    /* .imagery_ryg {
+    .imagery_ryg {
         justify-content: center;
         margin: 0;
-    } */
+    }
+
+
+    /* red imagery  */
+    .imagery_red-content-colors p {
+        font-weight: ;
+        font-size: 80px;
+        margin:0 20px 0;
+    }
+
+
 }
     
