@@ -1023,7 +1023,7 @@ header {
 /* Print Media Query */
 /* Print Media Query */
 /* Print Media Query */
-@media (width: 612px;) {
+@media (width:612px) {
     :root {
         --h1-font-size: 100px;
         --label-border: 1.5px solid black;
@@ -1053,6 +1053,10 @@ header {
         border-bottom: 1.5px black solid;
     }
 
+    .break-after {
+        page-break-after: always;
+    }
+
     .header_outline-text {
         -webkit-text-stroke-color: black;
         -webkit-text-stroke-width: 1.5px;
@@ -1065,6 +1069,10 @@ header {
     .section_main-body, .square {
         border-width: 1.5px;
     }
+
+    /* .section_main-body section:first-child {
+        page-break-after: always;
+    } */
 
     /* RYG Imagery */
     .imagery_ryg-content-red, .imagery_ryg-content-yellow, .imagery_ryg-content-green {
@@ -1088,87 +1096,6 @@ header {
         font-size: 65px;
     }
 
-    /* .imagery_color-blindness-content-roygbiv p:first-child {
-        color: rgba(0, 0, 0, 0.1);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(2) {
-        color: rgba(0, 0, 0, 0.2);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(3) {
-        color: rgba(0, 0, 0, 0.3);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(4) {
-        color: rgba(0, 0, 0, 0.4);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(5) {
-        color: rgba(0, 0, 0, 0.5);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(6) {
-        color: rgba(0, 0, 0, 0.6);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(7) {
-        color: rgba(0, 0, 0, 0.7);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(8) {
-        color: rgba(0, 0, 0, 0.8);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(9) {
-        color: rgba(0, 0, 0, 0.9);
-    }
-
-    .imagery_color-blindness-content-roygbiv p:nth-child(10) {
-        color: rgba(0, 0, 0, 1);
-    }
-
-    .imagery_color-blindness-content-color-blind p:first-child {
-        color: rgba(0, 0, 0, 0.2);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(2) {
-        color: rgba(0, 0, 0, 0.2);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(3) {
-        color: rgba(0, 0, 0, 0.2);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(4) {
-        color: rgba(0, 0, 0, 0.2);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(5) {
-        color: rgba(0, 0, 0, 0.2);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(6) {
-        color: rgba(0, 0, 0, 0.6);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(7) {
-        color: rgba(0, 0, 0, 0.7);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(8) {
-        color: rgba(0, 0, 0, 0.8);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(9) {
-        color: rgba(0, 0, 0, 0.9);
-    }
-
-    .imagery_color-blindness-content-color-blind p:nth-child(10) {
-        color: rgba(0, 0, 0, 1);
-    } */
-
-
     /* Different Reds "Imagery" */
     .imagery_red-content-colors p {
         font-size: 75px;
@@ -1177,6 +1104,6 @@ header {
 
     /* Gray Section "Imagery" */
     .imagery_gray-content > div p:first-child {
-        font-size: 90px;
+        font-size: 120px;
     }
 }
