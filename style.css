@@ -139,9 +139,6 @@ p {
     width: var(--main-text-width);
     margin: auto;
     margin-bottom: var(--paragraph-spacing);
-    /* padding-left: 20px; */
-    /* margin-right: 1%; */
-    /* margin-left: 4.5%; */
 }
 
 blockquote {
@@ -263,6 +260,7 @@ header {
     border-left: 2px solid #000;
     /* padding: 0 0 0 30px; */
     position: relative;
+    top: -100px;
     margin-bottom: var(--main-margin-bottom);
 }
 
@@ -283,6 +281,7 @@ header {
 /* introduction */
 .section_main-body > section:nth-of-type(1) .title-container .square, .section_main-body > section:nth-of-type(1) .title-container h3 {
     background-color: var(--introduction-section);
+    margin-top: 50px;
 }
 
 .section_main-body > section:nth-of-type(1) a:hover {
