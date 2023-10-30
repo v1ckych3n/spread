@@ -1001,17 +1001,34 @@ header {
 }
 
 @media (width: 612px) {
+    :root {
+        --h1-font-size: 100px;
+
+        /* color style(s) */
+        --introduction-section: white;
+        --laurel-section: white;
+        --color-blindness-section: white;
+        --different-reds-section: white;
+        --effect-of-colors-section: white;
+        --nature-of-surface-section: white;
+        --purkinje-section: white;
+        --ultramarine-section: white;
+        --gray-section: white;
+
+    }
+
     header {
         background: white;
         color: black;
-        border-bottom: 2px black solid;
-    }
-
-    h1 {
-        font-size: 
+        border-bottom: 1.5px black solid;
     }
 
     .header_outline-text {
         -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 1.5px;
+    }
+
+    .header_imagery div {
+        border: black 1.5px solid;
     }
 }
