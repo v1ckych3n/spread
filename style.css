@@ -987,6 +987,10 @@ header {
     }
 }
 
+/* Print Media Query */
+/* Print Media Query */
+/* Print Media Query */
+/* Print Media Query */
 @media (width: 612px) {
     :root {
         --h1-font-size: 100px;
@@ -994,6 +998,9 @@ header {
         --label-padding: 3px 8px 3px;
         --outline-width: 1.5px;
         --imagery-color: black;
+        --main-text-width: 65%;
+        --main-text-font-size: 16px;
+        --blockquote-color: black;
 
         /* color style(s) */
         --introduction-section: white;
@@ -1131,11 +1138,13 @@ header {
 
 
     /* Different Reds "Imagery" */
-    .imagery_red-content p {
-        filter: grayscale(100%);
+    .imagery_red-content-colors p {
+        font-size: 75px;
+        filter: grayscale(100%)
     }
 
-    .imagery_red-content-colors .imagery_gray-content-label {
-        color: red;
+    /* Gray Section "Imagery" */
+    .imagery_gray-content > div p:first-child {
+        font-size: 90px;
     }
 }
