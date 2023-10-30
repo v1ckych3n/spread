@@ -432,7 +432,7 @@ header {
     flex-direction: column;
     column-gap: 1rem;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     margin: auto;
 }
@@ -974,13 +974,19 @@ header {
 @media (min-width: 1280px) {
     :root {
         --h1-font-size: 150px;
+        --h3-font-size: 20px;
         --main-text-font-size: 26px;
+
+        --imagery-caption-font-size: 18px;
+        --outline-width: 1.5px;
+
+        --paragraph-spacing: 35px;
+        --main-line-height: 145%;
     }
 
     p {
         width: 50%;
         /* margin: auto; */
-        margin-bottom: 2rem;
     }
 
     blockquote {
@@ -1001,22 +1007,34 @@ header {
         margin: auto;
     }
 
-     /* Color blindness imagery  */
+    .imagery_ryg-content-red, .imagery_ryg-content-yellow, .imagery_ryg-content-green {
+        font-size: 200px;
+    }
+
+    /* Laurel Section "Imagery" */
+    .imagery_laurel-content p {
+        font-size: 175px;
+    }
+
+    /* Color blindness imagery  */
      .imagery_color-blindness {
-        width: 70%;
+        /* width: 70%; */
         margin: auto;
     }
 
     .imagery_color-blindness-content-roygbiv p, .imagery_color-blindness-content-color-blind p {
-        font-size: 80px;
+        font-size: 150px;
     }
 
     /* red imagery  */
     .imagery_red-content-colors p {
         font-weight: ;
-        font-size: 80px;
+        font-size: 100px;
         margin:0 12px 0;
     }
+
+    /* Ultramarine Section "Imagery" */
+    
 }
 
 /* Print Media Query */
