@@ -268,7 +268,7 @@ header {
 .title-container {
     display: flex;
     align-items: center;
-    margin: 40px 0px;
+    margin: 50px 0px;
 }
 
 .square {
@@ -992,7 +992,7 @@ header {
     blockquote {
         width: 50%;
         /* margin: auto; */
-        margin: 100px 30px 100px 500px;
+        margin: 100px 30px 100px 400px;
     }
 
     h3 {
@@ -1052,6 +1052,7 @@ header {
     .imagery_gray-content > div p:first-child {
         font-size: 200px;
     }
+
 }
 
 /* Print Media Query */
