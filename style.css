@@ -1053,5 +1053,88 @@ header {
     }
 
     /* Color Blindess "Image" */
-    
+    .imagery_color-blindness-content-roygbiv p, .imagery_color-blindness-content-color-blind p {
+        font-size: 65px;
+    }
+
+    .imagery_color-blindness-content-roygbiv p:first-child {
+        color: rgba(0, 0, 0, 0.1);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(2) {
+        color: rgba(0, 0, 0, 0.2);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(3) {
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(4) {
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(5) {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(6) {
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(7) {
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(8) {
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(9) {
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    .imagery_color-blindness-content-roygbiv p:nth-child(10) {
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .imagery_color-blindness-content-color-blind p:first-child {
+        color: rgba(0, 0, 0, 0.2);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(2) {
+        color: rgba(0, 0, 0, 0.2);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(3) {
+        color: rgba(0, 0, 0, 0.2);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(4) {
+        color: rgba(0, 0, 0, 0.2);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(5) {
+        color: rgba(0, 0, 0, 0.2);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(6) {
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(7) {
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(8) {
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(9) {
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    .imagery_color-blindness-content-color-blind p:nth-child(10) {
+        color: rgba(0, 0, 0, 1);
+    }
+
 }
