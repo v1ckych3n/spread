@@ -873,37 +873,6 @@ header {
 }
 
 
-/* Group collage section  */
-
-.group-collage {
-    background-color: #000;
-    padding: 70px 0px;
-}
-
-.group-collage h2, h4, p {
-    /* margin: auto; */
-    justify-content: center;
-    width: 90%;
-    line-height: 1.5;
-}
-
-.group-collage h2 {
-    font-size: 31px;
-    color: #fff;
-    margin: auto;
-}
-
-.group-collage h4 {
-    color: #fff;
-    margin: auto;
-}
-
-.group-collage p {
-    color: #fff;
-    margin: auto;
-}
-
-
 /* Tablet Media Query  */
 /* Tablet Media Query  */
 /* Tablet Media Query  */
@@ -972,18 +941,6 @@ header {
         font-size: 90px;
         /* margin:0 10px 0; */
     }
-
-    /* group collage section  */
-    .group-collage h2, h4, p {
-        margin: auto;
-        justify-content: center;
-        width: 70%;
-        line-height: 1.5;
-    }
-
-    .group-collage h2 {
-        margin-bottom: 20px;
-    }
  
 }
 
@@ -1036,18 +993,6 @@ header {
         font-weight: ;
         font-size: 80px;
         margin:0 12px 0;
-    }
-
-    /* group collage section  */
-    .group-collage h2, h4, p {
-        margin: auto;
-        justify-content: center;
-        width: 50%;
-        line-height: 1.5;
-    }
-
-    .group-collage h2 {
-        margin-bottom: 20px;
     }
 }
     
