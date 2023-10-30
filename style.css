@@ -196,6 +196,7 @@ header {
     font-size: 20px;
 
     margin-left: 0%;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -205,7 +206,7 @@ header {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .header_imagery div {
@@ -425,7 +426,7 @@ header {
     margin-top: -2rem;
 }
 
-/* Laurel Section "Imagery' */
+/* Laurel Section "Imagery" */
 .imagery_laurel {
     display: flex;
     flex-direction: column;
@@ -1003,6 +1004,10 @@ header {
 @media (width: 612px) {
     :root {
         --h1-font-size: 100px;
+        --label-border: 1.5px solid black;
+        --label-padding: 3px 8px 3px;
+        --outline-width: 1.5px;
+        --imagery-color: black;
 
         /* color style(s) */
         --introduction-section: white;
@@ -1031,4 +1036,22 @@ header {
     .header_imagery div {
         border: black 1.5px solid;
     }
+
+    .section_main-body, .square {
+        border-width: 1.5px;
+    }
+
+    /* RYG Imagery */
+    .imagery_ryg-content-red, .imagery_ryg-content-yellow, .imagery_ryg-content-green {
+        color: var(--imagery-color);
+    }
+
+    /* Laurel Section "Imagery" */
+    .imagery_laurel-content p {
+        color: var(--imagery-color);
+        font-size: 110px;
+    }
+
+    /* Color Blindess "Image" */
+    
 }
