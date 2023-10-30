@@ -139,7 +139,7 @@ p {
     width: var(--main-text-width);
     margin: auto;
     margin-bottom: var(--paragraph-spacing);
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 blockquote {
@@ -176,6 +176,10 @@ header {
 /* class styles */
 .section_main-body {
     margin-bottom: var(--main-margin-bottom);
+}
+
+.section_main-body p {
+    padding-left: 16px;
 }
 
 .header_outline-text {
@@ -265,6 +269,10 @@ header {
     /* padding: 0 0 0 30px; */
     position: relative;
 }
+
+/* .section_main-body p {
+    padding-left: 10px;
+} */
 
 .title-container {
     display: flex;
