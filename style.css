@@ -999,4 +999,19 @@ header {
         margin:0 12px 0;
     }
 }
-    
+
+@media (width: 612px) {
+    header {
+        background: white;
+        color: black;
+        border-bottom: 2px black solid;
+    }
+
+    h1 {
+        font-size: 
+    }
+
+    .header_outline-text {
+        -webkit-text-stroke-color: black;
+    }
+}
