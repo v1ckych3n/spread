@@ -623,7 +623,7 @@ header {
     grid-template-columns: repeat(10, .5fr);
     grid-template-rows: repeat(5, .75fr);
     justify-content: space-between;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
 }
 
 .imagery_red-content-colors p {
@@ -633,6 +633,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:0;
     -webkit-text-stroke-width: var(--outline-width);
     -webkit-text-stroke-color: var(--outline-color);
 }
@@ -890,9 +891,9 @@ header {
     /* class styles */
 
     /* RYG Imagery */
-    .imagery_ryg {
+    /* .imagery_ryg {
         justify-content: center;
         margin: 0;
-    }
+    } */
 }
     
