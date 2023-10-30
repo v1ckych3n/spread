@@ -139,6 +139,7 @@ p {
     width: var(--main-text-width);
     margin: auto;
     margin-bottom: var(--paragraph-spacing);
+    padding-left: 20px;
 }
 
 blockquote {
@@ -268,8 +269,7 @@ header {
 .title-container {
     display: flex;
     align-items: center;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin: 40px 0px;
 }
 
 .square {
