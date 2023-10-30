@@ -52,7 +52,7 @@
     --outline-color: black;
     --imagery-font-weight: 600;
     --imagery-caption-font-family: SF Mono;
-    --imagery-caption-font-size: 16px;
+    --imagery-caption-font-size: 14px;
     --imagery-caption-font-color: gray;
 
     /* interaction style(s) */
@@ -79,12 +79,12 @@
     --main-text-font-family: PP Radio Grotesk-Ultralight;
     --main-text-font-size: 19px;
     --main-text-width: 90%;
-    --paragraph-spacing: 2rem;
+    --paragraph-spacing: 30px;
 
     /* blockquote style(s) */
     --blockquote-font-family: Bitter;
     --blockquote-font-size: 27px;
-    --blockquote-margin: 100px 30px 100px 40px;
+    --blockquote-margin: 50px 30px 50px 40px;
     --blockquote-color: rgb(148, 148, 148);
 
     /* header style(s) */
@@ -282,6 +282,10 @@ header {
 .section_main-body > section:nth-of-type(1) .title-container .square, .section_main-body > section:nth-of-type(1) .title-container h3 {
     background-color: var(--introduction-section);
     margin-top: 50px;
+}
+
+.section_main-body > section:nth-of-type(1) .title-container h3 {
+    margin-top: 80px;
 }
 
 .section_main-body > section:nth-of-type(1) a:hover {
