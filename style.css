@@ -137,7 +137,7 @@ p {
     line-height: var(--main-line-height);
     width: var(--main-text-width);
     margin: auto;
-    margin-bottom: var(--paragraph-spacing)
+    margin-bottom: var(--paragraph-spacing);
 }
 
 blockquote {
@@ -427,7 +427,6 @@ header {
     align-content: center;
     justify-content: space-between;
     text-align: center;
-
     margin: auto;
 }
 
