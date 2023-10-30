@@ -188,7 +188,6 @@ header {
 .header_subheading {
     font-size: 26px;
     line-height: 100%;
-
     margin-left: 0%;
     margin-bottom: 25px;
 }
@@ -812,7 +811,7 @@ header {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat (2, auto);
+    grid-template-rows: repeat (2, 1fr);
     /* flex-direction: column; */
     text-align: center;
     align-items: center;
@@ -871,6 +870,34 @@ header {
 }
 
 
+/* Group collage section  */
+
+.group-collage {
+    background-color: #000;
+    padding: 70px 0px;
+}
+
+.group-collage h2, h4, p {
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.group-collage h2 {
+    margin-bottom: 50px;
+}
+
+.group-collage h4 {
+    margin-bottom: 30px;
+}
+
+.group-collage p {
+    margin-bottom: 15px;
+}
+
+
 /* Tablet Media Query  */
 /* Tablet Media Query  */
 /* Tablet Media Query  */
@@ -886,12 +913,64 @@ header {
         margin: 100px 30px 100px 200px;
     }
 
+     /* ryg imagery  */
+     .imagery_ryg {
+      width: 70%;
+      margin: auto;
+    }
+
+    /* Laurel imagery  */
+    .imagery_laurel {
+        width: 70%;
+    }
+
+    .imagery_laurel-content p {
+        font-size: 100px;
+    }
+
+    /* Color blindness imagery  */
+    .imagery_color-blindness {
+        width: 80%;
+        margin: auto;
+    }
+
+    .imagery_color-blindness-content-roygbiv p, .imagery_color-blindness-content-color-blind p {
+        font-size: 60px;
+    }
+
      /* red imagery  */
      .imagery_red-content-colors p {
         font-weight: ;
         font-size: 60px;
         margin:0 10px 0;
     }
+
+    /* gray imagery  */
+    .imagery_gray-content {
+        width: 70%;
+        margin: auto;
+    }
+
+    .imagery_gray-content-colors > p {
+        font-size: 90px;
+        /* margin:0 10px 0; */
+    }
+
+    /* group collage section  */
+    .group-collage h2, h4, p {
+        margin: auto;
+        justify-content: center;
+        width: 70%;
+        line-height: 1.5;
+    }
+
+    .group-collage h2 {
+        margin-bottom: 20px;
+    }
+ 
+
+     
+
 }
 
 /* Desktop Media Query */
@@ -925,7 +1004,17 @@ header {
     /* RYG Imagery */
     .imagery_ryg {
         justify-content: center;
-        margin: 0;
+        margin: auto;
+    }
+
+     /* Color blindness imagery  */
+     .imagery_color-blindness {
+        width: 70%;
+        margin: auto;
+    }
+
+    .imagery_color-blindness-content-roygbiv p, .imagery_color-blindness-content-color-blind p {
+        font-size: 80px;
     }
 
 
@@ -936,6 +1025,16 @@ header {
         margin:0 20px 0;
     }
 
+    /* group collage section  */
+    .group-collage h2, h4, p {
+        margin: auto;
+        justify-content: center;
+        width: 50%;
+        line-height: 1.5;
+    }
 
+    .group-collage h2 {
+        margin-bottom: 20px;
+    }
 }
     
