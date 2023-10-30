@@ -1147,6 +1147,9 @@ header {
     /* Different Reds "Imagery" */
     .imagery_red-content p {
         filter: grayscale(100%);
-        
+    }
+
+    .imagery_red-content-colors p {
+        font-size: 75px;
     }
 }
