@@ -796,6 +796,38 @@ header {
     color: #D2001A;
 }
 
+/* Ultramarine Section "Imagery" */
+.imagery_ultramarine {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+    
+.imagery_ultramarine p {
+    font-family: var(--imagery-caption-font-family);
+    font-size: var(--imagery-caption-font-size);
+    color: var(--imagery-caption-font-color);
+}
+    
+.imagery_ultramarine-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -2rem;
+}
+    
+.imagery_ultramarine-content p {
+    font-family: var(--imagery-font-family);
+    font-weight: var(--imagery-font-weight);
+    font-size: 125px;
+    color: var(--ultramarine-section);
+    -webkit-text-stroke-width: var(--outline-width);
+    -webkit-text-stroke-color: var(--outline-color);
+}
+
 /* Gray section Imagery */
 .imagery_gray-content {
     display: grid;
@@ -911,7 +943,7 @@ header {
         font-size: 60px;
     }
 
-     /* red imagery  */
+    /* red imagery  */
      .imagery_red-content {
         margin-top: 20px;
      }
@@ -991,7 +1023,7 @@ header {
 /* Print Media Query */
 /* Print Media Query */
 /* Print Media Query */
-@media (width: 612px) {
+@media (width: 612px;) {
     :root {
         --h1-font-size: 100px;
         --label-border: 1.5px solid black;
