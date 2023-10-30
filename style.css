@@ -1043,21 +1043,27 @@ header {
 
     /* RYG Imagery */
     .imagery_ryg-content-red, .imagery_ryg-content-yellow, .imagery_ryg-content-green {
-        color: var(--imagery-color);
+        /* color: var(--imagery-color); */
+        filter: grayscale(100%);
     }
 
     /* Laurel Section "Imagery" */
     .imagery_laurel-content p {
-        color: var(--imagery-color);
+        /* color: var(--imagery-color); */
         font-size: 110px;
+        filter: grayscale(100%);
     }
 
     /* Color Blindess "Image" */
+    .imagery_color-blindness-content {
+        filter: grayscale(100%);
+    }
+
     .imagery_color-blindness-content-roygbiv p, .imagery_color-blindness-content-color-blind p {
         font-size: 65px;
     }
 
-    .imagery_color-blindness-content-roygbiv p:first-child {
+    /* .imagery_color-blindness-content-roygbiv p:first-child {
         color: rgba(0, 0, 0, 0.1);
     }
 
@@ -1135,6 +1141,12 @@ header {
 
     .imagery_color-blindness-content-color-blind p:nth-child(10) {
         color: rgba(0, 0, 0, 1);
-    }
+    } */
 
+
+    /* Different Reds "Imagery" */
+    .imagery_red-content p {
+        filter: grayscale(100%);
+        
+    }
 }
