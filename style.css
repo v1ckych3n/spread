@@ -1149,7 +1149,6 @@ footer p {
     }
 
     /* Gray Section "Imagery" */
-    /* need to figure out how to align the caption text with the shape in desktop media query */
     .imagery_gray-content > div p:first-child {
         font-size: 200px;
     }
@@ -1207,9 +1206,102 @@ footer p {
         border-width: 1.5px;
     }
 
-    /* .section_main-body section:first-child {
+    /* RYG Imagery */
+    .imagery_ryg-content-red, .imagery_ryg-content-yellow, .imagery_ryg-content-green {
+        /* color: var(--imagery-color); */
+        filter: grayscale(100%);
+    }
+
+    /* Laurel Section "Imagery" */
+    .imagery_laurel-content p {
+        /* color: var(--imagery-color); */
+        font-size: 110px;
+        filter: grayscale(100%);
+    }
+
+    /* Color Blindess "Image" */
+    .imagery_color-blindness-content {
+        filter: grayscale(100%);
+    }
+
+    .imagery_color-blindness-content-roygbiv p, .imagery_color-blindness-content-color-blind p {
+        font-size: 65px;
+    }
+
+    /* Different Reds "Imagery" */
+    .imagery_red-content-colors p {
+        font-size: 75px;
+        filter: grayscale(100%)
+    }
+
+    /* Nature of Surfaces Section "Imagery" */
+    .imagery_nature-of-surfaces-content > div p {
+        font-size: 120px;
+        filter: grayscale(100%);
+    }
+
+    /* Ultramarine Section "Imagery" */
+    .imagery_ultramarine-content p {
+        font-size: 150px;
+        filter: grayscale(100%);
+    }
+
+    /* Gray Section "Imagery" */
+    .imagery_gray-content > div p:first-child {
+        font-size: 120px;
+    }
+}
+
+/* Print Media Query (for 612 px) */
+/* Print Media Query (for 612 px) */
+/* Print Media Query (for 612 px) */
+/* Print Media Query (for 612 px) */
+@media (width: 612px) {
+    :root {
+        --h1-font-size: 100px;
+        --label-border: 1.5px solid black;
+        --label-padding: 3px 8px 3px;
+        --outline-width: 1.5px;
+        --imagery-color: black;
+        --main-text-width: 65%;
+        --main-text-font-size: 16px;
+        --blockquote-color: black;
+
+        /* color style(s) */
+        --introduction-section: white;
+        --laurel-section: white;
+        --color-blindness-section: white;
+        --different-reds-section: white;
+        --effect-of-colors-section: white;
+        --nature-of-surface-section: white;
+        --purkinje-section: white;
+        --ultramarine-section: white;
+        --gray-section: white;
+
+    }
+
+    header {
+        background: white;
+        color: black;
+        border-bottom: 1.5px black solid;
+    }
+
+    .break-after {
         page-break-after: always;
-    } */
+    }
+
+    .header_outline-text {
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 1.5px;
+    }
+
+    .header_imagery div {
+        border: black 1.5px solid;
+    }
+
+    .section_main-body, .square {
+        border-width: 1.5px;
+    }
 
     /* RYG Imagery */
     .imagery_ryg-content-red, .imagery_ryg-content-yellow, .imagery_ryg-content-green {
