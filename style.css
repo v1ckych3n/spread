@@ -177,9 +177,19 @@ footer {
     background: black;
     color: white;
     height: 20vh;
+    margin: -5%;
+    /* padding: var(--heading-padding); */
+    position: relative;
+    top: -100px;
+}
+
+footer p {
+    justify-content: center;
 }
 
 /* class styles */
+
+
 
 .header_outline-text {
     color: transparent;
@@ -269,7 +279,7 @@ footer {
     /* padding: 0 0 0 30px; */
     position: relative;
     top: -100px;
-    margin-bottom: var(--main-margin-bottom);
+    /* margin-bottom: var(--main-margin-bottom); */
 }
 
 .title-container {
