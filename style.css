@@ -180,13 +180,14 @@ footer {
     height: 20vh;
     /* margin: -5%; */
     /* padding: var(--heading-padding); */
-    position: relative;
+    /* position: relative; */
     width: 110%;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: -5%;
+    margin-top: -100px;
     /* top: -70px; */
 }
 
@@ -932,6 +933,7 @@ footer p {
     align-items: center;
     justify-content: space-between;
     margin-bottom: var(--imagery-margin-bottom);
+    padding-bottom: 80px;
 }
 
 .imagery_gray-content > div p:first-child {
