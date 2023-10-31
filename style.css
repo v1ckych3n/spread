@@ -1158,7 +1158,7 @@ footer p {
 /* Print Media Query */
 /* Print Media Query */
 /* Print Media Query */
-@media (width:612px) {
+@media print {
     :root {
         --h1-font-size: 100px;
         --label-border: 1.5px solid black;
