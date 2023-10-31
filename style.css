@@ -796,6 +796,63 @@ header {
     color: #D2001A;
 }
 
+/* Nature of Surfaces Section "Imagery" */
+.imagery_nature-of-surfaces {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imagery_nature-of-surfaces-content > div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 5%;
+}
+
+.imagery_nature-of-surfaces-content > div p {
+    font-family: var(--imagery-font-family);
+    font-weight: var(--imagery-font-weight);
+    font-size: 75px;
+
+    -webkit-text-stroke-color: var(--outline-color);
+    -webkit-text-stroke-width: var(--outline-width);
+}
+
+.imagery_nature-of-surfaces-content > div p:first-child {
+    color: #B87333;
+}
+
+.imagery_nature-of-surfaces-content > div p:nth-child(2) {
+    color: #A2804C;
+}
+
+.imagery_nature-of-surfaces-content > div p:nth-child(3) {
+    color: #92895C;
+}
+
+.imagery_nature-of-surfaces-content > div p:nth-child(4) {
+    color: #83916C;
+}
+
+.imagery_nature-of-surfaces-content > div p:nth-child(5) {
+    color: #6A9E86;
+}
+
+.imagery_nature-of-surfaces-content > div p:nth-child(6) {
+    color: #5CA695;
+}
+
+.imagery_nature-of-surfaces-content > div p:nth-child(7) {
+    color: #43B3AE;
+}
+
+.imagery_nature-of-surfaces-content > p:nth-child(2) {
+    font-family: var(--imagery-caption-font-family);
+    font-size: var(--imagery-caption-font-size);
+    color: var(--imagery-caption-font-color);
+}
+
 /* Ultramarine Section "Imagery" */
 .imagery_ultramarine {
     display: flex;
@@ -1040,6 +1097,12 @@ header {
         font-weight: ;
         font-size: 80px;
         margin:0 12px 0;
+    }
+
+    /* Nature of Surfaces Section "Imagery" */
+    .imagery_nature-of-surfaces-content > div p {
+        font-size: 200px;
+        margin-bottom: -2rem;
     }
 
     /* Ultramarine Section "Imagery" */
