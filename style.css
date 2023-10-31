@@ -54,6 +54,7 @@
     --imagery-caption-font-family: SF Mono;
     --imagery-caption-font-size: 14px;
     --imagery-caption-font-color: gray;
+    --imagery-margin-bottom: -2rem;
 
     /* interaction style(s) */
     --hover-effect: ease-in-out 0.3s;
@@ -79,12 +80,12 @@
     --main-text-font-family: PP Radio Grotesk-Ultralight;
     --main-text-font-size: 19px;
     --main-text-width: 90%;
-    --paragraph-spacing: 30px;
+    --paragraph-spacing: 2rem;
 
     /* blockquote style(s) */
     --blockquote-font-family: Bitter;
     --blockquote-font-size: 27px;
-    --blockquote-margin: 50px 30px 50px 40px;
+    --blockquote-margin: 30px 30px 50px 40px;
     --blockquote-color: rgb(148, 148, 148);
 
     /* header style(s) */
@@ -379,7 +380,8 @@ header {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-between
+    margin-bottom: var(--imagery-margin-bottom);;
 }
 
 .imagery_ryg-content {
@@ -399,6 +401,7 @@ header {
     color: #F45050;
     -webkit-text-stroke-width: var(--outline-width);
     -webkit-text-stroke-color: var(--outline-color);
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_ryg-content-yellow {
@@ -408,6 +411,7 @@ header {
     color: #F6FA70;
     -webkit-text-stroke-width: var(--outline-width);
     -webkit-text-stroke-color: var(--outline-color);
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_ryg-content-green {
@@ -417,13 +421,13 @@ header {
     color: #36AE7C;
     -webkit-text-stroke-width: var(--outline-width);
     -webkit-text-stroke-color: var(--outline-color);
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_ryg-content p:nth-child(2) {
     font-family: var(--imagery-caption-font-family);
     font-size: var(--imagery-caption-font-size);
     color: var(--imagery-caption-font-color);
-    margin-top: -2rem;
 }
 
 /* Laurel Section "Imagery" */
@@ -435,6 +439,7 @@ header {
     justify-content: center;
     text-align: center;
     margin: auto;
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_laurel p {
@@ -446,7 +451,7 @@ header {
 .imagery_laurel-content {
     display: flex;
     flex-direction: row;
-    margin-bottom: -2rem;
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_laurel-content p {
@@ -487,11 +492,15 @@ header {
     padding: 0px 10px;
 }
 
+.imagery_color-blindness:first-of-type {
+    margin-bottom: var(--imagery-margin-bottom);
+}
+
 .imagery_color-blindness-content p{
     font-family: var(--imagery-caption-font-family);
     font-size: var(--imagery-caption-font-size);
     color: var(--imagery-caption-font-color);
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .imagery_color-blindness-content-roygbiv {
@@ -500,7 +509,7 @@ header {
     align-content: center;
     justify-content: space-between;
     text-align: center;
-    margin-bottom: -2rem;
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_color-blindness-content-roygbiv p {
@@ -558,7 +567,7 @@ header {
     align-content: center;
     justify-content: space-between;
     text-align: center;
-    margin-bottom: -2rem;
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_color-blindness-content-color-blind p {
@@ -617,6 +626,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_red-content p{
@@ -803,11 +813,13 @@ header {
     text-align: center;
 }
 
+
 .imagery_nature-of-surfaces-content > div:first-of-type {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0% 5%;
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_nature-of-surfaces-content > div p {
@@ -862,6 +874,7 @@ header {
     justify-content: space-between;
     text-align: center;
     margin: auto;
+    margin-bottom: var(--imagery-margin-bottom);
 }
     
 .imagery_ultramarine p {
@@ -895,6 +908,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: var(--imagery-margin-bottom);
 }
 
 .imagery_gray-content > div p:first-child {
@@ -1199,6 +1213,17 @@ header {
     .imagery_red-content-colors p {
         font-size: 75px;
         filter: grayscale(100%)
+    }
+
+    /* Nature of Surfaces Section "Imagery" */
+    .imagery_nature-of-surfaces-content > div p {
+        font-size: 120px;
+        filter: grayscale(100%);
+    }
+
+    /* Ultramarine Section "Imagery" */
+    .imagery_ultramarine-content p {
+        font-size: 150px;
     }
 
     /* Gray Section "Imagery" */
