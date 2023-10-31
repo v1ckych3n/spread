@@ -173,6 +173,12 @@ header {
     padding: var(--header-padding);
 }
 
+footer {
+    background: black;
+    color: white;
+    height: 20vh;
+}
+
 /* class styles */
 
 .header_outline-text {
@@ -893,7 +899,7 @@ header {
     font-family: var(--imagery-font-family);
     font-weight: var(--imagery-font-weight);
     font-size: 90px;
-    color: var(--ultramarine-section);
+    color: #0437F2;
     -webkit-text-stroke-width: var(--outline-width);
     -webkit-text-stroke-color: var(--outline-color);
 }
@@ -1116,7 +1122,6 @@ header {
     /* Nature of Surfaces Section "Imagery" */
     .imagery_nature-of-surfaces-content > div p {
         font-size: 200px;
-        margin-bottom: -2rem;
     }
 
     /* Ultramarine Section "Imagery" */
@@ -1224,6 +1229,7 @@ header {
     /* Ultramarine Section "Imagery" */
     .imagery_ultramarine-content p {
         font-size: 150px;
+        filter: grayscale(100%);
     }
 
     /* Gray Section "Imagery" */
