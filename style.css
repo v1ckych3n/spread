@@ -162,6 +162,7 @@ a {
 /* semantic DOM */
 body {
     margin: 5%;
+    /* position: relative; */
 }
 
 header {
@@ -177,14 +178,20 @@ footer {
     background: black;
     color: white;
     height: 20vh;
-    margin: -5%;
+    /* margin: -5%; */
     /* padding: var(--heading-padding); */
     position: relative;
-    top: -100px;
+    width: 110%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5%;
+    /* top: -70px; */
 }
 
 footer p {
-    justify-content: center;
+   margin: 0;
 }
 
 /* class styles */
