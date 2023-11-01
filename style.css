@@ -1279,6 +1279,13 @@ footer p {
         border-bottom: 1.5px black solid;
     }
 
+    footer {
+        background: white; 
+        color: black;
+        border-top: black;
+        border-width: 1.5px;
+    }
+
     .break-after {
         page-break-after: always;
     }
