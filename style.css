@@ -315,25 +315,16 @@ footer span {
 /* introduction */
 .section_main-body > section:first-of-type .title-container .square, .section_main-body > section:first-of-type .title-container h3 {
     background-color: var(--introduction-section);
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .section_main-body > section:first-of-type .title-container h3 {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .section_main-body > section:first-of-type a:hover {
     background-color: var(--introduction-section);
     transition: var(--hover-effect);
-}
-
-/* position for rest */
-.section_main-body > section:not(:first-of-type) > .title-container h3 {
-    margin-top: 50px;
-}
-
-.section_main-body > section:not(first-of-type) .title-container .square, .section_main-body > section:not(first-of-type) .title-container h3 {
-    margin-top: 20px;
 }
 
 /* Laurel Schwulst */
@@ -1114,6 +1105,15 @@ footer span {
     
     .header_imagery div p {
         font-size: 24px;
+    }
+
+    /* position for rest */
+    .section_main-body > section:not(:first-of-type) > .title-container h3 {
+        margin-top: 50px;
+    }
+
+    .section_main-body > section:not(first-of-type) .title-container .square, .section_main-body > section:not(first-of-type) .title-container h3 {
+        margin-top: 20px;
     }
 
     /* RYG Imagery */
