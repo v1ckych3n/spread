@@ -178,9 +178,6 @@ footer {
     background: black;
     color: white;
     height: 20vh;
-    /* margin: -5%; */
-    /* padding: var(--heading-padding); */
-    /* position: relative; */
     width: 110%;
     bottom: 0;
     display: flex;
@@ -188,11 +185,17 @@ footer {
     align-items: center;
     margin: -5%;
     margin-top: -100px;
-    /* top: -70px; */
 }
 
 footer p {
    margin: 0;
+   font-family: SF Pro;
+   font-size: var(--main-text-font-size);
+}
+
+footer span {
+    font-size: x-large;
+    text-transform: uppercase;
 }
 
 /* class styles */
@@ -310,18 +313,27 @@ footer p {
 }
 
 /* introduction */
-.section_main-body > section:nth-of-type(1) .title-container .square, .section_main-body > section:nth-of-type(1) .title-container h3 {
+.section_main-body > section:first-of-type .title-container .square, .section_main-body > section:first-of-type .title-container h3 {
     background-color: var(--introduction-section);
     margin-top: 50px;
 }
 
-.section_main-body > section:nth-of-type(1) .title-container h3 {
+.section_main-body > section:first-of-type .title-container h3 {
     margin-top: 80px;
 }
 
-.section_main-body > section:nth-of-type(1) a:hover {
+.section_main-body > section:first-of-type a:hover {
     background-color: var(--introduction-section);
     transition: var(--hover-effect);
+}
+
+/* position for rest */
+.section_main-body > section:not(:first-of-type) > .title-container h3 {
+    margin-top: 50px;
+}
+
+.section_main-body > section:not(first-of-type) .title-container .square, .section_main-body > section:not(first-of-type) .title-container h3 {
+    margin-top: 20px;
 }
 
 /* Laurel Schwulst */
@@ -1061,7 +1073,6 @@ footer p {
         font-size: 90px;
         /* margin:0 10px 0; */
     }
- 
 }
 
 /* Desktop Media Query */
@@ -1150,7 +1161,7 @@ footer p {
     .imagery_gray-content > div p:first-child {
         font-size: 200px;
     }
-
+    ]
 }
 
 /* Print Media Query */
